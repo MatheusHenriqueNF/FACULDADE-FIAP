@@ -1,0 +1,145 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2B505EE4-BB3D-1C14-85F4-75E3D4A6D0F0" name="Pergunta_Frequente">
+<createdBy>Charllot</createdBy>
+<createdTime>2024-11-06 17:22:48 UTC</createdTime>
+<generatorID>CA7B7249-27CF-8813-ED29-1B3648FC730B</generatorID>
+<ownerDesignName>DER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_pergunta" id="6E8F1299-E8C0-E3B9-80E7-43396726EC80">
+<createdBy>Charllot</createdBy>
+<createdTime>2024-11-06 17:22:48 UTC</createdTime>
+<generatorID>490C78CF-85CF-1FD1-9C75-B96C7081939E</generatorID>
+<ownerDesignName>DER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pergunta" id="B668DFF8-C11F-3FF0-6F80-68E769A1CF81">
+<createdBy>Charllot</createdBy>
+<createdTime>2024-11-06 17:22:48 UTC</createdTime>
+<generatorID>75B8683A-7DED-EA2C-CC17-051EDAC2D567</generatorID>
+<ownerDesignName>DER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="resposta" id="60E2E555-1428-C94C-56A1-ADA9BE9E70EF">
+<createdBy>Charllot</createdBy>
+<createdTime>2024-11-06 18:45:16 UTC</createdTime>
+<generatorID>9D93EE87-AA96-3ECA-6EB0-0115A340E761</generatorID>
+<ownerDesignName>DER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Categoria_Pergunta_id_categoria" id="422AECC6-01AC-285A-68B0-024FA7819B6D">
+<createdBy>Charllot</createdBy>
+<createdTime>2024-11-06 17:22:48 UTC</createdTime>
+<generatorID>10DAD67D-6CEB-920C-7365-050B8CDDA4B4</generatorID>
+<ownerDesignName>DER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E4CB6143-FC97-13F3-593F-E5694820444F" referredColumn="842BD812-8D94-470C-6E80-C690EDC81F2B"/>
+</associations>
+</Column>
+<Column name="Idioma_id_idioma" id="278C0BA1-C351-9AF4-A56F-C7520D04F523">
+<createdBy>Charllot</createdBy>
+<createdTime>2024-11-06 17:22:48 UTC</createdTime>
+<generatorID>B1B295C2-0E85-44BD-8707-0005E8387B2F</generatorID>
+<ownerDesignName>DER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D8F6C82D-84F2-1F37-34C0-1E0FED40103E" referredColumn="DBF131C0-4B32-CDC6-C7F5-8CFE0FCC9E58"/>
+</associations>
+</Column>
+<Column name="Estacao_id_estacao" id="11D205D5-74B1-4BB2-ABFC-59EA012495D6">
+<createdBy>Charllot</createdBy>
+<createdTime>2024-11-06 17:22:48 UTC</createdTime>
+<generatorID>0B4E951F-6C70-B983-C58B-65499A63E2B5</generatorID>
+<ownerDesignName>DER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="62EC717A-15A8-F1EA-16DF-D3ADD1A1BD60" referredColumn="F77830D6-8776-E096-1AA5-3971C33CD3BF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="67DAACD3-AF4C-F6D7-9608-A08A3EA2446C" name="Pergunta_Frequente_PK">
+<createdBy>Charllot</createdBy>
+<createdTime>2024-11-06 17:22:48 UTC</createdTime>
+<generatorID>BB225202-9B1B-A865-3B26-2C3FB30FD804</generatorID>
+<ownerDesignName>DER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6E8F1299-E8C0-E3B9-80E7-43396726EC80"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D4DD00EB-3C2E-2412-2A9F-ECBF812E7B5E" name="Pergunta_Frequente_Idioma_FK">
+<createdBy>Charllot</createdBy>
+<createdTime>2024-11-06 17:22:48 UTC</createdTime>
+<generatorID>9AC87389-43E2-1285-0259-E65557AEC954</generatorID>
+<ownerDesignName>DER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="278C0BA1-C351-9AF4-A56F-C7520D04F523"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="34419598-CF1E-9E80-A87F-DFD19BE286A1" name="Pergunta_Frequente_Categoria_Pergunta_FK">
+<createdBy>Charllot</createdBy>
+<createdTime>2024-11-06 17:22:48 UTC</createdTime>
+<generatorID>5730CE85-7EF0-BE5D-C1B6-F863FB593FB1</generatorID>
+<ownerDesignName>DER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="422AECC6-01AC-285A-68B0-024FA7819B6D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="10D6A158-26C9-41B5-6889-83A0E18C844D" name="Pergunta_Frequente_Estacao_FK">
+<createdBy>Charllot</createdBy>
+<createdTime>2024-11-06 17:22:48 UTC</createdTime>
+<generatorID>E9B76843-C615-D9A0-32DF-FCB23E882D29</generatorID>
+<ownerDesignName>DER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="11D205D5-74B1-4BB2-ABFC-59EA012495D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

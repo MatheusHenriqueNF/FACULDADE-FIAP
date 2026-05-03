@@ -1,0 +1,144 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0514CFD9-B0BB-D65A-D055-A5E59C4E4BF1" name="Incidente">
+<createdBy>Charllot</createdBy>
+<createdTime>2024-09-29 14:55:46 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<engineerTo>
+<item key="732D495E-071D-9985-2170-0563BCA20460" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_incidente" id="7DAAE039-14B2-17BC-9C34-7C7C35DA435C">
+<createdBy>Charllot</createdBy>
+<createdTime>2024-09-29 14:56:12 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<engineerTo>
+<item key="732D495E-071D-9985-2170-0563BCA20460" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descricao" id="B366E67E-ABCD-FE61-827F-606F028998CE">
+<createdBy>Charllot</createdBy>
+<createdTime>2024-09-29 14:56:23 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<engineerTo>
+<item key="732D495E-071D-9985-2170-0563BCA20460" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_inicio" id="ECB79E87-3231-CA99-6136-0F89810629E6">
+<createdBy>Charllot</createdBy>
+<createdTime>2024-09-29 14:56:44 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<engineerTo>
+<item key="732D495E-071D-9985-2170-0563BCA20460" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_fim" id="68475580-58C3-CED6-56AC-A88A3BB5D978">
+<createdBy>Charllot</createdBy>
+<createdTime>2024-09-29 14:56:58 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<engineerTo>
+<item key="732D495E-071D-9985-2170-0563BCA20460" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="hora_inicio" id="79687913-DADD-9DA3-9424-AFC00F24C587">
+<createdBy>Charllot</createdBy>
+<createdTime>2024-09-29 14:58:09 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<engineerTo>
+<item key="732D495E-071D-9985-2170-0563BCA20460" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="hora_fim" id="4E96A47F-1D68-D698-ED53-CB0EF1373091">
+<createdBy>Charllot</createdBy>
+<createdTime>2024-09-29 14:58:25 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<engineerTo>
+<item key="732D495E-071D-9985-2170-0563BCA20460" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_estacao" id="17104BC2-53BD-1C6A-E82A-39DDDAA35F51">
+<createdBy>Charllot</createdBy>
+<createdTime>2024-10-10 03:58:56 UTC</createdTime>
+<generatorID>3899AC43-EAC0-6285-547D-870F1815CACE</generatorID>
+<ownerDesignName>DER</ownerDesignName>
+<engineerTo>
+<item key="732D495E-071D-9985-2170-0563BCA20460" value="true"/>
+</engineerTo>
+<referedAttribute>E062DB2F-1236-4D14-9C75-34F45E3CE869</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_tipo" id="65264D16-B525-76E8-56F8-D9B6E1927383">
+<createdBy>Charllot</createdBy>
+<createdTime>2024-10-10 03:59:05 UTC</createdTime>
+<generatorID>32FAE333-F7B4-CCEA-5C32-81A6285F0CBA</generatorID>
+<ownerDesignName>DER</ownerDesignName>
+<engineerTo>
+<item key="732D495E-071D-9985-2170-0563BCA20460" value="true"/>
+</engineerTo>
+<referedAttribute>B5FC7028-3604-1618-EB04-E9D526B3EAC8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6B4579B8-D76A-EC96-C3AB-F7D960B3DFF1" name="Incidente PK">
+<createdBy>Charllot</createdBy>
+<createdTime>2024-09-29 14:56:20 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<engineerTo>
+<item key="732D495E-071D-9985-2170-0563BCA20460" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7DAAE039-14B2-17BC-9C34-7C7C35DA435C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

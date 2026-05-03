@@ -1,0 +1,129 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="43142221-838D-4E06-0BED-328466F82324" name="Ponto_Turistico">
+<createdBy>Charllot</createdBy>
+<createdTime>2024-11-06 17:22:48 UTC</createdTime>
+<generatorID>0584E436-DCC4-9675-CB74-50A6E40A493B</generatorID>
+<ownerDesignName>DER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_ponto_turistico" id="D4BDA9CD-8519-6F24-F0B2-EF699B8C023F">
+<createdBy>Charllot</createdBy>
+<createdTime>2024-11-06 17:22:48 UTC</createdTime>
+<generatorID>A8109197-1542-E0F1-9C0E-5BE4D5223D85</generatorID>
+<ownerDesignName>DER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="AC137A26-F631-4374-72D8-40899C631275">
+<createdBy>Charllot</createdBy>
+<createdTime>2024-11-06 17:22:48 UTC</createdTime>
+<generatorID>EC7DEA41-9B22-610D-C18E-14E0890ED533</generatorID>
+<ownerDesignName>DER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descricao" id="723F1FD8-2798-7D70-33A3-28CD5B37719E">
+<createdBy>Charllot</createdBy>
+<createdTime>2024-11-06 17:22:48 UTC</createdTime>
+<generatorID>200F8950-293C-C32E-CA3D-3316DA27E0CC</generatorID>
+<ownerDesignName>DER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Estacao_id_estacao" id="C57B1E7B-A1D1-6117-D138-4EC9F39AB0AF">
+<createdBy>Charllot</createdBy>
+<createdTime>2024-11-06 17:22:48 UTC</createdTime>
+<generatorID>E5DFD6E0-815B-314E-CD74-46AB100B533E</generatorID>
+<ownerDesignName>DER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="01E80D19-7489-A769-FB21-6B6572E2ED19" referredColumn="F77830D6-8776-E096-1AA5-3971C33CD3BF"/>
+</associations>
+</Column>
+<Column name="Endereco_id_endereco" id="A515D2CF-0F89-3E24-1C1D-A76472C8AE89">
+<createdBy>Charllot</createdBy>
+<createdTime>2024-11-06 17:22:48 UTC</createdTime>
+<generatorID>87B7D9D0-AF75-888A-7848-F763434F61C9</generatorID>
+<ownerDesignName>DER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C1975AE3-2EE9-EE6C-39DC-4E07EF3607D8" referredColumn="B1150BDB-AAE0-C7CC-2C97-A4296D388D2C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="443C3288-D595-F5E5-5073-7E081958388D" name="Ponto_Turistico_PK">
+<createdBy>Charllot</createdBy>
+<createdTime>2024-11-06 17:22:48 UTC</createdTime>
+<generatorID>57AF600F-EAC2-B3BE-C30F-D422FB821691</generatorID>
+<ownerDesignName>DER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D4BDA9CD-8519-6F24-F0B2-EF699B8C023F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="08EF7DD2-5C41-3DEC-E52A-75147793D869" name="Ponto_Turistico__IDX">
+<createdBy>Charllot</createdBy>
+<createdTime>2024-11-06 17:22:48 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>5D948DEB-D2E3-4756-79AD-3A8A3CEC6859</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="A515D2CF-0F89-3E24-1C1D-A76472C8AE89"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F0DA9406-1F6C-999A-768E-D8CA09377B41" name="Ponto_Turistico_Estacao_FK">
+<createdBy>Charllot</createdBy>
+<createdTime>2024-11-06 17:22:48 UTC</createdTime>
+<generatorID>C607A8AF-4E9A-6F4A-2359-7E6DFF58FA4C</generatorID>
+<ownerDesignName>DER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C57B1E7B-A1D1-6117-D138-4EC9F39AB0AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4EFB7445-5306-232F-A709-20F163EBA251" name="Ponto_Turistico_Endereco_FK">
+<createdBy>Charllot</createdBy>
+<createdTime>2024-11-06 17:22:48 UTC</createdTime>
+<generatorID>5D948DEB-D2E3-4756-79AD-3A8A3CEC6859</generatorID>
+<ownerDesignName>DER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A515D2CF-0F89-3E24-1C1D-A76472C8AE89"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

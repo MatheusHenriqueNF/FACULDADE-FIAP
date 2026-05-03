@@ -1,0 +1,80 @@
+header{
+   width: 100%;
+   height: 100px;
+   background-color: #3848AC;
+   display: flex;
+   justify-content: space-between; 
+   align-items: center;
+   padding-left: 75px;
+   padding-right: 75px;
+}
+
+header a{
+    color: #FFF;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 350;
+    font-size: 20px;
+}
+
+header ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+header ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#conteudo_logo{
+    width: 200px;
+    height: auto;
+    display: flex;
+}
+
+#divisao{
+    width: 5px;
+    height: 50px;
+    margin-top: 12px;
+    background-color: #FFF;
+}
+
+#conteudo_logo p{
+    width: 100%;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 350;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+#corousel_img{
+    width: 100%;
+    height: calc(100vh - 100px);
+    background-image: url('../img/carousel.png');
+    background-size: cover;
+    background-repeat: no-repeat;   
+    background-position: center;
+    filter: brightness(0.55) contrast(1);
+    position: relative;
+}
+
+#p_carousel{
+    width: 490px;
+    color: #FFF;
+    font-size: 48px;
+    text-align: justify;
+    position: absolute;
+    top: 50%; 
+    left: 18%; 
+    transform: translate(-50%, -50%);
+    font-weight:650;
+}
+
+#carousel span{
+    color: #3848AC;
+    background-color: #FFF;
+}

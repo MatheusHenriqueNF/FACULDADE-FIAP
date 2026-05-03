@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CA7B7249-27CF-8813-ED29-1B3648FC730B" name="Pergunta_Frequente">
+<createdBy>Charllot</createdBy>
+<createdTime>2024-09-29 14:54:33 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<engineerTo>
+<item key="732D495E-071D-9985-2170-0563BCA20460" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_pergunta" id="490C78CF-85CF-1FD1-9C75-B96C7081939E">
+<createdBy>Charllot</createdBy>
+<createdTime>2024-09-29 14:54:46 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<engineerTo>
+<item key="732D495E-071D-9985-2170-0563BCA20460" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pergunta" id="75B8683A-7DED-EA2C-CC17-051EDAC2D567">
+<createdBy>Charllot</createdBy>
+<createdTime>2024-09-29 14:55:02 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<engineerTo>
+<item key="732D495E-071D-9985-2170-0563BCA20460" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_categoria" id="10DAD67D-6CEB-920C-7365-050B8CDDA4B4">
+<createdBy>Charllot</createdBy>
+<createdTime>2024-10-10 03:57:28 UTC</createdTime>
+<generatorID>5730CE85-7EF0-BE5D-C1B6-F863FB593FB1</generatorID>
+<ownerDesignName>DER</ownerDesignName>
+<engineerTo>
+<item key="732D495E-071D-9985-2170-0563BCA20460" value="true"/>
+</engineerTo>
+<referedAttribute>0CCE492E-B141-6EC8-70D0-EF64EBFBB9B8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_resposta" id="97A0E1B0-EA25-66D5-5E10-130E396FD0EA">
+<createdBy>Charllot</createdBy>
+<createdTime>2024-10-10 04:05:22 UTC</createdTime>
+<generatorID>D8F8202A-7182-592C-033F-31489120AB84</generatorID>
+<ownerDesignName>DER</ownerDesignName>
+<engineerTo>
+<item key="732D495E-071D-9985-2170-0563BCA20460" value="true"/>
+</engineerTo>
+<referedAttribute>248DB5DF-6098-676E-8193-C743F206D074</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_idioma" id="B1B295C2-0E85-44BD-8707-0005E8387B2F">
+<createdBy>Charllot</createdBy>
+<createdTime>2024-10-10 18:03:20 UTC</createdTime>
+<generatorID>9AC87389-43E2-1285-0259-E65557AEC954</generatorID>
+<ownerDesignName>DER</ownerDesignName>
+<engineerTo>
+<item key="732D495E-071D-9985-2170-0563BCA20460" value="true"/>
+</engineerTo>
+<referedAttribute>7FB6506C-79CF-C6E8-C6FE-DF79877E0D9E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BB225202-9B1B-A865-3B26-2C3FB30FD804" name="Pergunta_Frequente PK">
+<createdBy>Charllot</createdBy>
+<createdTime>2024-09-29 14:54:57 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<engineerTo>
+<item key="732D495E-071D-9985-2170-0563BCA20460" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>490C78CF-85CF-1FD1-9C75-B96C7081939E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FB639403-9BF7-0C92-61DE-27E63583B45F" name="Estado">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-16 12:20:25 UTC</createdTime>
+<ownerDesignName>tarefabd-matheus-rm560442</ownerDesignName>
+<engineerTo>
+<item key="CB3E11D9-E8CF-B7C9-58DC-9C217804D651" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_estado" id="018AFB8C-09E9-EDE0-ECF4-5D6C3F9F8C0D">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-16 12:20:33 UTC</createdTime>
+<ownerDesignName>tarefabd-matheus-rm560442</ownerDesignName>
+<engineerTo>
+<item key="CB3E11D9-E8CF-B7C9-58DC-9C217804D651" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome_estado" id="058698FB-2656-3A01-FB4E-393F60956F24">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-16 12:20:53 UTC</createdTime>
+<ownerDesignName>tarefabd-matheus-rm560442</ownerDesignName>
+<engineerTo>
+<item key="CB3E11D9-E8CF-B7C9-58DC-9C217804D651" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_pais" id="338DFE34-9C3C-BF6C-5819-DE91FDDF7FA8">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-16 12:30:02 UTC</createdTime>
+<generatorID>03CE86B4-47D5-3C0E-4F95-F7A7986BBAC6</generatorID>
+<ownerDesignName>tarefabd-matheus-rm560442</ownerDesignName>
+<engineerTo>
+<item key="CB3E11D9-E8CF-B7C9-58DC-9C217804D651" value="true"/>
+</engineerTo>
+<referedAttribute>F9199DE5-177F-3124-5E00-7B4C6F6FB14B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="33C55026-6FF7-0D7D-37F2-053CC57D8D91" name="Estado PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-16 12:21:24 UTC</createdTime>
+<ownerDesignName>tarefabd-matheus-rm560442</ownerDesignName>
+<engineerTo>
+<item key="CB3E11D9-E8CF-B7C9-58DC-9C217804D651" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>018AFB8C-09E9-EDE0-ECF4-5D6C3F9F8C0D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

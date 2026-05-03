@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="tarefabd-matheus-rm560442" id="430777E7-A3A3-84E9-0604-E4784BC84253" version="3.5">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-16 11:05:22 UTC</createdTime>
+<ownerDesignName>aula06</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>430777E7-A3A3-84E9-0604-E4784BC84253</designId>
+</OSDM_Design>

@@ -1,0 +1,10 @@
+IBM WATSON
+API KEY:MEPKpSoju4dXk33m0hKIRwXhwenzlK1QmM6gctsIHVm9
+URL: https://api.us-south.assistant.watson.cloud.ibm.com/instances/a8706533-2963-47dc-b5ab-325022644f72
+ASSISTANT ID: fb2eabe8-f6ab-43ef-b523-2c6f49008521
+
+
+
+AUDIO
+apikey: Yj1vWeVxj43r_YQjJMJ8oby1YHx-P679wJ7Opn7sJGbA
+url": https://api.au-syd.speech-to-text.watson.cloud.ibm.com/instances/047c0015-8f87-4187-8686-e7bee5ccaf98

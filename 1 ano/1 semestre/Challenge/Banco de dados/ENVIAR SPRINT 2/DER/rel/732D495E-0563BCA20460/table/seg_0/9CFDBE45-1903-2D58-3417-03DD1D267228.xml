@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9CFDBE45-1903-2D58-3417-03DD1D267228" name="Estacao_Linha">
+<createdBy>Charllot</createdBy>
+<createdTime>2024-11-06 17:22:48 UTC</createdTime>
+<generatorID>9CBE01DA-A59D-2FD8-82B1-6A2009017C17</generatorID>
+<ownerDesignName>DER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_estacao_linha" id="537773E0-7EE9-58E7-0EEE-5FD7070BC5A9">
+<createdBy>Charllot</createdBy>
+<createdTime>2024-11-06 17:22:48 UTC</createdTime>
+<generatorID>4581D450-9C14-0074-EDA1-553B52A4C908</generatorID>
+<ownerDesignName>DER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Linha_id_linha" id="53A25D66-8682-CB78-7CEB-012D2FDFF995">
+<createdBy>Charllot</createdBy>
+<createdTime>2024-11-06 17:22:48 UTC</createdTime>
+<generatorID>29251EED-0E25-54F1-B90E-A21DE766CD10</generatorID>
+<ownerDesignName>DER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0D22C71B-AA65-08F0-8B12-F836BFF2F6B3" referredColumn="249FCDE4-9C06-EB0F-1C49-5A67AF35FEFF"/>
+</associations>
+</Column>
+<Column name="Estacao_id_estacao" id="BDD56A52-FB46-B745-CCAF-209EB78FE631">
+<createdBy>Charllot</createdBy>
+<createdTime>2024-11-06 17:22:48 UTC</createdTime>
+<generatorID>939BF891-31BF-C91F-E82C-B9D67433B3D9</generatorID>
+<ownerDesignName>DER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="883F3CDF-1EC3-02CB-F9E2-5C9BAC446680" referredColumn="F77830D6-8776-E096-1AA5-3971C33CD3BF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9068A901-E293-C1D1-4585-B817CCF7FE82" name="Estacao_Linha_PK">
+<createdBy>Charllot</createdBy>
+<createdTime>2024-11-06 17:22:48 UTC</createdTime>
+<generatorID>ED12FE28-F784-0854-07B4-044338198DD2</generatorID>
+<ownerDesignName>DER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="537773E0-7EE9-58E7-0EEE-5FD7070BC5A9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B6301EFF-0D56-67A1-3EA4-AF0C3D1215FA" name="Estacao_Linha_Linha_FK">
+<createdBy>Charllot</createdBy>
+<createdTime>2024-11-06 17:22:48 UTC</createdTime>
+<generatorID>2CD56B50-3693-DFCF-8A05-298323620B62</generatorID>
+<ownerDesignName>DER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="53A25D66-8682-CB78-7CEB-012D2FDFF995"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="41548004-32DA-F32D-C94E-0CA578395E2A" name="Estacao_Linha_Estacao_FK">
+<createdBy>Charllot</createdBy>
+<createdTime>2024-11-06 17:22:48 UTC</createdTime>
+<generatorID>9A6BC74B-7A65-CDE1-5D49-EF3E03B88024</generatorID>
+<ownerDesignName>DER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BDD56A52-FB46-B745-CCAF-209EB78FE631"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
