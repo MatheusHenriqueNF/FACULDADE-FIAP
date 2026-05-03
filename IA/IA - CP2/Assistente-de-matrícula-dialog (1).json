@@ -1,0 +1,661 @@
+{
+  "intents": [
+    {
+      "intent": "Agradecimento",
+      "examples": [
+        {
+          "text": "Agradeço de coração por todo o seu apoio e dedicação"
+        },
+        {
+          "text": "Legal, valeu!"
+        },
+        {
+          "text": "Muito obrigado por sua ajuda"
+        },
+        {
+          "text": "Muito obrigado senhor bot"
+        },
+        {
+          "text": "Obrigada pela ajuda"
+        },
+        {
+          "text": "Obrigada você pela ajuda"
+        },
+        {
+          "text": "obrigado"
+        },
+        {
+          "text": "Obrigado por sempre estar disponível quando preciso, sua ajuda é inestimável"
+        },
+        {
+          "text": "Show rôbo obrigado"
+        },
+        {
+          "text": "Sou profundamente grato pelo seu tempo e esforço, você realmente fez a diferença!"
+        },
+        {
+          "text": "Tamo junto"
+        },
+        {
+          "text": "Valeu bot, você me ajudou demais!"
+        },
+        {
+          "text": "Você me ajudou, muito obrigado"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Cadastro",
+      "examples": [
+        {
+          "text": "11 945884305"
+        },
+        {
+          "text": "Como faço minha matrícula?"
+        },
+        {
+          "text": "Como faço para fazer o meu cadastro"
+        },
+        {
+          "text": "Como iniciar o processo de cadastro?"
+        },
+        {
+          "text": "Como proceder para criar meu cadastro?"
+        },
+        {
+          "text": "Existe algum link para eu fazer o cadastro?"
+        },
+        {
+          "text": "Gostaria de realizar meu cadastro"
+        },
+        {
+          "text": "matheus@gmail.com"
+        },
+        {
+          "text": "matheus henrique nascimento"
+        },
+        {
+          "text": "Onde faço o cadastro para acessar o sistema?"
+        },
+        {
+          "text": "O que é necessário para completar meu cadastro?"
+        },
+        {
+          "text": "Pode me orientar sobre como fazer o cadastro?"
+        },
+        {
+          "text": "Preciso de instruções para realizar o meu cadastro, como faço?"
+        },
+        {
+          "text": "Quais são os passos para me cadastrar?"
+        },
+        {
+          "text": "Quero me matricular"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Duvida",
+      "examples": [
+        {
+          "text": "Estou com uma dúvida, como devo proceder?"
+        },
+        {
+          "text": "Estou com uma dúvida, poderia esclarecer para mim?"
+        },
+        {
+          "text": "Estou com uma dúvida, você pode me explicar melhor?"
+        },
+        {
+          "text": "Gostaria de entender melhor, posso tirar uma dúvida?"
+        },
+        {
+          "text": "Gostaria de esclarecer uma dúvida, pode me orientar?"
+        },
+        {
+          "text": "Gostaria de tirar um duvida"
+        },
+        {
+          "text": "Posso tirar uma dúvida rápida?"
+        },
+        {
+          "text": "Posso tirar uma dúvida sobre o assunto?"
+        },
+        {
+          "text": "Preciso tirar uma dúvida, pode me dar mais informações?"
+        },
+        {
+          "text": "Tenho uma duvida"
+        },
+        {
+          "text": "Tenho uma duvida sobre minha matricula"
+        },
+        {
+          "text": "Tenho uma dúvida sobre o processo, poderia me ajudar?"
+        },
+        {
+          "text": "Tenho uma dúvida, você pode me ajudar?"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "Duvida_diploma",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Diploma",
+          "synonyms": [
+            "certificado",
+            "comprovante",
+            "diploma"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Duvida_matricula",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Matricula",
+          "synonyms": [
+            "inscrição",
+            "matricula"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Email",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "Email",
+          "patterns": [
+            "\\b[A-Za-z0-9._%+-]+@([A-Za-z0-9-]+\\.)+[A-Za-z]{2,}\\b"
+          ]
+        }
+      ],
+      "fuzzy_match": false
+    },
+    {
+      "entity": "Nome_completo",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "Nome completo",
+          "patterns": [
+            "^([A-ZÁ-Üa-zá-ü]{2,})(\\s[A-ZÁ-Üa-zá-ü]{2,})+$"
+          ]
+        }
+      ],
+      "fuzzy_match": false
+    },
+    {
+      "entity": "sim-nao",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "nao",
+          "synonyms": [
+            "n",
+            "nao",
+            "nn",
+            "no",
+            "not",
+            "noup"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "sim",
+          "synonyms": [
+            "ok",
+            "okay",
+            "si",
+            "sim",
+            "ss",
+            "yep",
+            "yes"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Status",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Status",
+          "synonyms": [
+            "status"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Telefone",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "celular",
+          "patterns": [
+            "(\\d2) (\\d{5}-\\d{4})",
+            "(\\d2) (\\d{9})"
+          ]
+        },
+        {
+          "type": "patterns",
+          "value": "fixo",
+          "patterns": [
+            "(\\d{2}) (\\d{5}-\\d{4})",
+            "(\\d{2}) (\\d{9})",
+            "(\\d{2}) (\\d{5}\\d{4})",
+            "(\\d{2}) (\\d{5} \\d{4})"
+          ]
+        }
+      ],
+      "fuzzy_match": false
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Bem-vindo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Oi, posso ajudar em algo?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "title": "Em outros casos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Eu não entendi. Você pode tentar reformular a frase."
+              },
+              {
+                "text": "Você pode reformular sua afirmação? Eu não estou entendendo."
+              },
+              {
+                "text": "Eu não entendi o sentido."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Em outros casos",
+      "previous_sibling": "node_10_1729535535356",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Qual o seu nome completo?"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_3_1729533275264",
+      "event_name": "focus",
+      "dialog_node": "handler_10_1729533275264",
+      "previous_sibling": "handler_9_1729533275264"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Qual o seu email?"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_7_1729533318882",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1729533318883",
+      "previous_sibling": "handler_7_1729533318883"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_9_1729533364729",
+      "context": {
+        "Telefone": "@Telefone.literal"
+      },
+      "conditions": "@Telefone",
+      "event_name": "input",
+      "dialog_node": "handler_4_1729533364729"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_7_1729533318882",
+      "context": {
+        "Email": "@Email.literal"
+      },
+      "conditions": "@Email",
+      "event_name": "input",
+      "dialog_node": "handler_7_1729533318883"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Qual o seu telefone?"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_9_1729533364729",
+      "event_name": "focus",
+      "dialog_node": "handler_7_1729533364729",
+      "previous_sibling": "handler_4_1729533364729"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Estamos iniciando o seu cadastro!"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_6_1729360453957",
+      "conditions": "#Cadastro",
+      "event_name": "generic",
+      "dialog_node": "handler_8_1729360634971",
+      "previous_sibling": "slot_9_1729533364729"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1729533275264",
+      "context": {
+        "Nome_completo": "@Nome_completo.literal"
+      },
+      "conditions": "@Nome_completo",
+      "event_name": "input",
+      "dialog_node": "handler_9_1729533275264"
+    },
+    {
+      "type": "standard",
+      "title": "Agradecimento",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tchau!"
+              },
+              {
+                "text": "Volte sempre!"
+              },
+              {
+                "text": "Estou a dísposição!"
+              },
+              {
+                "text": "Até logo!"
+              },
+              {
+                "text": "Espero ter ajudado, até mais!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "#Agradecimento",
+      "dialog_node": "node_10_1729535535356",
+      "previous_sibling": "node_6_1729360453957"
+    },
+    {
+      "type": "standard",
+      "title": "Duvida diploma",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Seu diploma está disponível!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1729356356942",
+      "conditions": "@Duvida_diploma:Diploma",
+      "dialog_node": "node_1_1729356373616"
+    },
+    {
+      "type": "standard",
+      "title": "Duvida matricula",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O que gostaria de saber sobre a sua matricula?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1729356356942",
+      "conditions": "@Duvida_matricula:Matricula",
+      "dialog_node": "node_1_1729356391894",
+      "previous_sibling": "node_1_1729356373616"
+    },
+    {
+      "type": "standard",
+      "title": "Duvida",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Qual a sua dúvida?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Duvida",
+      "dialog_node": "node_2_1729356356942",
+      "previous_sibling": "node_8_1729356542118"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Cadastro realizado!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1729360453957",
+      "conditions": "@sim-nao:sim",
+      "dialog_node": "node_5_1729535005407"
+    },
+    {
+      "type": "standard",
+      "title": "Status",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sua matrícula está OK"
+              },
+              {
+                "text": "Sua matrícula está EM ANDAMENTO"
+              },
+              {
+                "text": "Sua matrícula está PENDENTE"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_1_1729356391894",
+      "conditions": "@Status:Status",
+      "dialog_node": "node_6_1729357341827"
+    },
+    {
+      "type": "frame",
+      "title": "Cadastro",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Poderia confirmar os seus dados, seu nome é $Nome_completo, seu e-mail é $Email, seu telefone é $Telefone"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Cadastro",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_6_1729360453957",
+      "previous_sibling": "node_2_1729356356942"
+    },
+    {
+      "type": "standard",
+      "title": "Duvida especifica",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_1_1729356373616"
+      },
+      "conditions": "#Duvida && @Duvida_matricula:Matricula || #Duvida && @Duvida_diploma:Diploma",
+      "dialog_node": "node_8_1729356542118",
+      "previous_sibling": "node_8_1729358645214"
+    },
+    {
+      "type": "standard",
+      "title": "Duvida status",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_6_1729357341827"
+      },
+      "conditions": "#Duvida && @Status:Status",
+      "dialog_node": "node_8_1729358645214",
+      "previous_sibling": "Bem-vindo"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_6_1729360453957",
+      "variable": "$Nome_completo",
+      "dialog_node": "slot_3_1729533275264",
+      "previous_sibling": "node_5_1729535005407"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_6_1729360453957",
+      "variable": "$Email",
+      "dialog_node": "slot_7_1729533318882",
+      "previous_sibling": "slot_3_1729533275264"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_6_1729360453957",
+      "variable": "$Telefone",
+      "dialog_node": "slot_9_1729533364729",
+      "previous_sibling": "slot_7_1729533318882"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "disambiguation": {
+      "prompt": "Você quis dizer:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "Nenhuma das anteriores",
+      "use_connect_to_support_prompt": "Connect to support",
+      "single_answer_clarification_prompt": "Something else"
+    },
+    "human_agent_assist": {
+      "prompt": "Você quis dizer:"
+    }
+  },
+  "learning_opt_out": false,
+  "language": "pt-br",
+  "description": "",
+  "name": "Assistente de matrícula-dialog"
+}

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="69D97F3C-7ED1-D7C8-A185-DAA6E4386C3F" containerWithKeyObject="12B14F27-7644-7644-58D1-FEE801F50AC7" localFKIndex="0F601DD7-2432-7491-8230-72473DE0AD8A" name="Endereco_CEP_FK">
+<createdBy>Charllot</createdBy>
+<createdTime>2024-11-06 17:22:48 UTC</createdTime>
+<generatorID>FD0DACF9-7695-BABF-89B9-036D867D82F5</generatorID>
+<ownerDesignName>DER</ownerDesignName>
+<referredTableLongName>CEP</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F9580D35-F619-AA41-7D3F-BB115EF24741</referredTableID>
+<keyObject>2D4E629C-1EAC-8A0C-876F-D545B5ACAE82</keyObject>
+<referredKeyID>2D4E629C-1EAC-8A0C-876F-D545B5ACAE82</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_cep</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

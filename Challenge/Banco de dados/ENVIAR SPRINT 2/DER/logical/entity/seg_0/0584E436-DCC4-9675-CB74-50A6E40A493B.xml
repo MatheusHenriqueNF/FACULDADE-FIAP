@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0584E436-DCC4-9675-CB74-50A6E40A493B" name="Ponto_Turistico">
+<createdBy>Charllot</createdBy>
+<createdTime>2024-09-29 14:58:48 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<engineerTo>
+<item key="732D495E-071D-9985-2170-0563BCA20460" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_ponto_turistico" id="A8109197-1542-E0F1-9C0E-5BE4D5223D85">
+<createdBy>Charllot</createdBy>
+<createdTime>2024-09-29 14:59:00 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<engineerTo>
+<item key="732D495E-071D-9985-2170-0563BCA20460" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="EC7DEA41-9B22-610D-C18E-14E0890ED533">
+<createdBy>Charllot</createdBy>
+<createdTime>2024-09-29 14:59:09 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<engineerTo>
+<item key="732D495E-071D-9985-2170-0563BCA20460" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descricao" id="200F8950-293C-C32E-CA3D-3316DA27E0CC">
+<createdBy>Charllot</createdBy>
+<createdTime>2024-09-29 14:59:22 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<engineerTo>
+<item key="732D495E-071D-9985-2170-0563BCA20460" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_estacao" id="E5DFD6E0-815B-314E-CD74-46AB100B533E">
+<createdBy>Charllot</createdBy>
+<createdTime>2024-10-10 03:57:38 UTC</createdTime>
+<generatorID>C607A8AF-4E9A-6F4A-2359-7E6DFF58FA4C</generatorID>
+<ownerDesignName>DER</ownerDesignName>
+<engineerTo>
+<item key="732D495E-071D-9985-2170-0563BCA20460" value="true"/>
+</engineerTo>
+<referedAttribute>E062DB2F-1236-4D14-9C75-34F45E3CE869</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_endereco" id="87B7D9D0-AF75-888A-7848-F763434F61C9">
+<createdBy>Charllot</createdBy>
+<createdTime>2024-11-06 15:55:17 UTC</createdTime>
+<generatorID>5D948DEB-D2E3-4756-79AD-3A8A3CEC6859</generatorID>
+<ownerDesignName>DER</ownerDesignName>
+<engineerTo>
+<item key="732D495E-071D-9985-2170-0563BCA20460" value="true"/>
+</engineerTo>
+<referedAttribute>288C8016-82C8-5459-80AB-E38BC5236B84</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="57AF600F-EAC2-B3BE-C30F-D422FB821691" name="Ponto_Turistico PK">
+<createdBy>Charllot</createdBy>
+<createdTime>2024-09-29 15:10:02 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<engineerTo>
+<item key="732D495E-071D-9985-2170-0563BCA20460" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A8109197-1542-E0F1-9C0E-5BE4D5223D85</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

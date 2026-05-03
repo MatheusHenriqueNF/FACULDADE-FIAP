@@ -1,0 +1,2078 @@
+{
+  "intents": [
+    {
+      "intent": "Consultar_rota",
+      "examples": [
+        {
+          "text": "Barueri"
+        },
+        {
+          "text": "Como chegar de forma mais rápida ao meu destino?"
+        },
+        {
+          "text": "Como posso otimizar meu tempo de viagem?"
+        },
+        {
+          "text": "Desejo saber a rota para chegar no meu endereço"
+        },
+        {
+          "text": "Existe um caminho mais curto para a minha estação?"
+        },
+        {
+          "text": "Gostaria de conhecer a cidade"
+        },
+        {
+          "text": "Gostaria de consultar uma rota"
+        },
+        {
+          "text": "Preciso saber qual linha de pegar para o meu destino"
+        },
+        {
+          "text": "Qual a melhor rota para chegar no meu destino?"
+        },
+        {
+          "text": "Qual a rota mais rápida para o meu destino?"
+        },
+        {
+          "text": "Qual o trajeto mais direto para meu destino?"
+        },
+        {
+          "text": "Se eu quiser chegar o mais rápido possível, qual o melhor caminho?"
+        },
+        {
+          "text": "Sou novo e não sei andar de transporte"
+        }
+      ]
+    },
+    {
+      "intent": "Despedida",
+      "examples": [
+        {
+          "text": "agradeço a ajuda"
+        },
+        {
+          "text": "até"
+        },
+        {
+          "text": "bye"
+        },
+        {
+          "text": "falou"
+        },
+        {
+          "text": "flw"
+        },
+        {
+          "text": "muito obrigado"
+        },
+        {
+          "text": "Obrigado"
+        },
+        {
+          "text": "Obrigado pela ajuda!"
+        },
+        {
+          "text": "tchau"
+        },
+        {
+          "text": "thanks"
+        },
+        {
+          "text": "thank you"
+        },
+        {
+          "text": "valeu"
+        },
+        {
+          "text": "vlw"
+        }
+      ]
+    },
+    {
+      "intent": "Furtos_roubos",
+      "examples": [
+        {
+          "text": "A empresa de transporte público tem alguma responsabilidade em casos de furtos ou roubos?"
+        },
+        {
+          "text": "Como posso bloquear meu cartão?"
+        },
+        {
+          "text": "Como posso contribuir para a segurança pessoal?"
+        },
+        {
+          "text": "Devo carregar minha bolsa ou mochila na frente ou nas costas?"
+        },
+        {
+          "text": "É seguro usar o celular dentro do transporte público?"
+        },
+        {
+          "text": "Existem aplicativos ou dispositivos que podem me ajudar a rastrear meu celular em caso de roubo?"
+        },
+        {
+          "text": "O que acontece se eu presenciar um furto ou roubo no transporte público? Devo intervir?"
+        },
+        {
+          "text": "O que as empresas de transporte estão fazendo para aumentar a segurança nos vagões?"
+        },
+        {
+          "text": "O que as empresas de transporte estão fazendo para aumentar a segurança nos veículos?"
+        },
+        {
+          "text": "O que devo fazer se eu tiver meu celular roubado?"
+        },
+        {
+          "text": "Quais são as medidas de segurança que posso tomar para evitar ser vítima de furto ou roubo no transporte público?"
+        },
+        {
+          "text": "Quais são os crimes mais comuns relacionados a furtos e roubos em transportes públicos?"
+        }
+      ],
+      "description": "Uusário interagir em caso de ver algo suspeito nas estações"
+    },
+    {
+      "intent": "Lotacao",
+      "examples": [
+        {
+          "text": "As estações estão muito lotadas agora?"
+        },
+        {
+          "text": "Como estão as estações?"
+        },
+        {
+          "text": "É possível fazer uma viagem tranquila agora?"
+        },
+        {
+          "text": "Quais as linhas mais lotadas?"
+        },
+        {
+          "text": "Quais os horários de pico?"
+        },
+        {
+          "text": "Qual a estação mais lotada?"
+        },
+        {
+          "text": "Qual a melhor rota para evitar aglomerações?"
+        },
+        {
+          "text": "Qual o horário de menor movimento nas estações?"
+        },
+        {
+          "text": "Qual o melhor horário para viajar e evitar aglomerações?"
+        },
+        {
+          "text": "Tem alguma previsão de lotação para está manhã?"
+        },
+        {
+          "text": "Tem alguma previsão de lotação para esta noite?"
+        },
+        {
+          "text": "Tem alguma previsão de lotação para está tarde?"
+        },
+        {
+          "text": "Tem muita gente nas estações?"
+        }
+      ]
+    },
+    {
+      "intent": "Perguntas_frequentes",
+      "examples": [
+        {
+          "text": "Como posso obter um mapa completo do metrô?"
+        },
+        {
+          "text": "Como recarregar o bilhete único?"
+        },
+        {
+          "text": "É permitido transportar animais?"
+        },
+        {
+          "text": "Existe algum aplicativo para consultar horários e rotas?"
+        },
+        {
+          "text": "Existe algum wi-fi gratuito nas estações?"
+        },
+        {
+          "text": "O trem está atrasado, o que devo fazer?"
+        },
+        {
+          "text": "Posso entrar com bicicleta?"
+        },
+        {
+          "text": "Quais são as linhas de metrô que operam na cidade?"
+        },
+        {
+          "text": "Qual é o número de telefone para contato?"
+        },
+        {
+          "text": "Qual o valor da passagem?"
+        },
+        {
+          "text": "Quem é a CCR?"
+        },
+        {
+          "text": "Vi algo estranho na estação, como devo reportar?"
+        }
+      ]
+    },
+    {
+      "intent": "Perguntas_sobre_bilhetes",
+      "examples": [
+        {
+          "text": "Como posso comprar um bilhete unitário?"
+        },
+        {
+          "text": "Como posso consultar o saldo do meu bilhete?"
+        },
+        {
+          "text": "Como solicitar o reembolso de um bilhete?"
+        },
+        {
+          "text": "E se eu perder meu bilhete?"
+        },
+        {
+          "text": "Existe algum desconto para estudantes ou idosos?"
+        },
+        {
+          "text": "Onde posso recarregar meu bilhete?"
+        },
+        {
+          "text": "O que fazer se a máquina não ler o meu bilhete?"
+        },
+        {
+          "text": "Posso usar este bilhete em todos os transportes públicos?"
+        },
+        {
+          "text": "Quais formas de pagamento são aceitas para comprar bilhetes?"
+        },
+        {
+          "text": "Quais são os tipos de bilhetes disponíveis para o transporte público?"
+        },
+        {
+          "text": "Qual a validade do bilhete?"
+        },
+        {
+          "text": "Quanto tempo o crédito dura no bilhete?"
+        }
+      ]
+    },
+    {
+      "intent": "Ponto_partida",
+      "examples": [
+        {
+          "text": "Como faço para descobrir em qual estação estou?"
+        },
+        {
+          "text": "Como faço para saber meu ponto de partida?"
+        },
+        {
+          "text": "De onde eu vim?"
+        },
+        {
+          "text": "De qual estação devo sair para chegar ao meu destino?"
+        },
+        {
+          "text": "Onde estou neste momento?"
+        },
+        {
+          "text": "Onde eu estou nesse momento?"
+        },
+        {
+          "text": "Preciso informar minha localização atual para calcular a rota?"
+        },
+        {
+          "text": "Qual a estação próxima a mim?"
+        },
+        {
+          "text": "Qual é a minha localização atual?"
+        },
+        {
+          "text": "Qual o nome da estação que estou?"
+        },
+        {
+          "text": "Qual o nome da minha estação atual?"
+        },
+        {
+          "text": "Qual o ponto de partida da minha viagem?"
+        }
+      ]
+    },
+    {
+      "intent": "Ponto_turistico",
+      "examples": [
+        {
+          "text": "Como faço para ir há um ponto turístico?"
+        },
+        {
+          "text": "Gostaria de conhecer a cidade"
+        },
+        {
+          "text": "Gostaria de conhecer alguns pontos turísticos"
+        },
+        {
+          "text": "Gostaria de ir em um ponto turistico"
+        },
+        {
+          "text": "Me mostre uma rota para ir a um ponto turístico"
+        },
+        {
+          "text": "Preciso ir a um ponto turístico"
+        },
+        {
+          "text": "Quais estações ficam próximas de pontos turísticos?"
+        },
+        {
+          "text": "Quais estações me ajudam a conectar os principais pontos turísticos?"
+        },
+        {
+          "text": "Quais estações oferecem acesso direto a pontos turísticos?"
+        },
+        {
+          "text": "Quais são os pontos turísticos da cidade?"
+        },
+        {
+          "text": "Qual a rota mais rápida para chegar em um ponto turístico?"
+        },
+        {
+          "text": "Qual o melhor horário para visitar a cidade?"
+        }
+      ]
+    },
+    {
+      "intent": "Problemas_nas_linhas",
+      "examples": [
+        {
+          "text": "As escadas rolantes estão funcionando corretamente?"
+        },
+        {
+          "text": "Há alguma área da estação que está interditada?"
+        },
+        {
+          "text": "Há alguma previsão para a resolução dos problemas que estão ocorrendo na estação?"
+        },
+        {
+          "text": "Houve algum acidente na linha?"
+        },
+        {
+          "text": "Houve algum atraso?"
+        },
+        {
+          "text": "O que está causando os atrasos nas estações?"
+        },
+        {
+          "text": "Por que a estação está fechada?"
+        },
+        {
+          "text": "Por que a linha está com as operações suspensas?"
+        },
+        {
+          "text": "Qual a previsão para a normalização do serviço?"
+        },
+        {
+          "text": "Qual o prazo estimado para a retomada dos serviços?"
+        },
+        {
+          "text": "Quando a linha será reiniciada após a manutenção?"
+        },
+        {
+          "text": "Quando poderemos esperar que o serviço volte a funcionar normalmente?"
+        }
+      ]
+    },
+    {
+      "intent": "Saudacao",
+      "examples": [
+        {
+          "text": "beleza"
+        },
+        {
+          "text": "boa noite"
+        },
+        {
+          "text": "boa tarde"
+        },
+        {
+          "text": "bom dia"
+        },
+        {
+          "text": "E aí"
+        },
+        {
+          "text": "Fala"
+        },
+        {
+          "text": "Good afternoon"
+        },
+        {
+          "text": "Good evening"
+        },
+        {
+          "text": "Good morning"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Hi"
+        },
+        {
+          "text": "Oi"
+        },
+        {
+          "text": "oie"
+        },
+        {
+          "text": "Olá"
+        },
+        {
+          "text": "olá, tudo bem?"
+        },
+        {
+          "text": "Salve"
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entity": "Estacao_linha_8",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Amador Bueno",
+          "synonyms": [
+            "Amador",
+            "Amador Bueno",
+            "Bueno"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Ambuitá",
+          "synonyms": [
+            "Ambuitá"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Antônio João",
+          "synonyms": [
+            "Antônio",
+            "Antônio João",
+            "João"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Barueri",
+          "synonyms": [
+            "Barueri"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Carapicuíba",
+          "synonyms": [
+            "Carapicu",
+            "Carapicuíba"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Cimenrita",
+          "synonyms": [
+            "Cimenrita",
+            "Menrita"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Comandante Sampaio",
+          "synonyms": [
+            "Comandante",
+            "Sampaio"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Domingos de Moraes",
+          "synonyms": [
+            "DM",
+            "Domingos",
+            "Moraes"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Engenheiro Cardoso",
+          "synonyms": [
+            "Cardoso",
+            "Engenheiro Cardoso"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Gen. Minguel Costa",
+          "synonyms": [
+            "Costa",
+            "Miguel",
+            "Miguel Costa"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Imperatriz Leopodina",
+          "synonyms": [
+            "Imperatriz",
+            "Leopodina"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Itapevi",
+          "synonyms": [
+            "Itapevi"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Jandira",
+          "synonyms": [
+            "Jandira"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Jardim Belval",
+          "synonyms": [
+            "Belval",
+            "Jardim",
+            "Jardim Belval"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Júlio Prestes",
+          "synonyms": [
+            "JP",
+            "julio",
+            "Júlio",
+            "Júlio Prestes",
+            "preste",
+            "Prestes"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Lapa",
+          "synonyms": [
+            "Lapa",
+            "Lp"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Osasco",
+          "synonyms": [
+            "Osasco"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Palmeiras-Barra Funda",
+          "synonyms": [
+            "Barra Funda",
+            "Palmeiras",
+            "Verdão"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Presidente Altino",
+          "synonyms": [
+            "Altino",
+            "Presidente"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Quitaúna",
+          "synonyms": [
+            "Quitaúna"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Sagrado Coração",
+          "synonyms": [
+            "Coração",
+            "Sagrado Coração"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Santa Rita",
+          "synonyms": [
+            "Rita",
+            "Santa Rita"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Santa Teresinha",
+          "synonyms": [
+            "Santa Teresa",
+            "Teresinha"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "Estacao_linha_9",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Autódromo",
+          "synonyms": [
+            "Autódromo"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Berrini",
+          "synonyms": [
+            "Berrini"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Ceasa",
+          "synonyms": [
+            "Ceasa"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Cidade Universitária",
+          "synonyms": [
+            "Cidade Universitária",
+            "USP"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Grajaú",
+          "synonyms": [
+            "Grajaú"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Granja Julieta",
+          "synonyms": [
+            "Granja",
+            "Granja Julieta",
+            "Julieta"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Hebraica-Rebouças",
+          "synonyms": [
+            "Hebraica",
+            "Hebraica-Rebouças",
+            "Rebouças"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Jurubatuba",
+          "synonyms": [
+            "Jurubatuba"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Morumbi",
+          "synonyms": [
+            "Morumbi"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Osasco",
+          "synonyms": [
+            "Osasco"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Pinheiros",
+          "synonyms": [
+            "Pinheiros"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Presidente Altino",
+          "synonyms": [
+            "Altino",
+            "Presidente",
+            "Presidente Altino"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Primavera-Interlagos",
+          "synonyms": [
+            "Interlagos",
+            "Primavera",
+            "Primavera-Interlagos"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Santo Amaro",
+          "synonyms": [
+            "Amaro",
+            "Santo Amaro"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Socorro",
+          "synonyms": [
+            "Socorro"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Vila Lobos - Jaguaré",
+          "synonyms": [
+            "Jaguaré",
+            "Vila Lobos",
+            "Vila Lobos  Jaguaré",
+            "Vila Lobos - Jaguaré"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Vila Olímpia",
+          "synonyms": [
+            "Vila Olímpia"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "Linha",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Linha 8",
+          "synonyms": [
+            "8",
+            "diamante",
+            "linha 8"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Linha 9",
+          "synonyms": [
+            "9",
+            "Esmeralda",
+            "linha 9"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "Nome",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "Nome",
+          "patterns": [
+            "([A-Z][a-z]+)(\\s[A-Z][a-z]+)*"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Problema",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Problema",
+          "synonyms": [
+            "acidente",
+            "atraso",
+            "falha",
+            "falha técnica",
+            "imprevisto",
+            "problema"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "Tipo_bilhete",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Bilhete",
+          "synonyms": [
+            "bilhete único",
+            "cartão",
+            "carterinha",
+            "papel",
+            "passagem",
+            "top",
+            "unitário"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Bem-vindo",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "title": "Em outros casos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Eu não entendi. Você pode tentar reformular a frase."
+              },
+              {
+                "text": "Você pode reformular sua afirmação? Eu não estou entendendo."
+              },
+              {
+                "text": "Eu não entendi o sentido."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Em outros casos",
+      "previous_sibling": "node_9_1731089297535",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Olá, como posso te chamar?"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_2_1731091922802",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1731091922810",
+      "previous_sibling": "handler_6_1731091922810"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1731091922802",
+      "context": {
+        "Nome": "@Nome.literal"
+      },
+      "conditions": "@Nome",
+      "event_name": "input",
+      "dialog_node": "handler_6_1731091922810"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Origem Vila Mariana, embarque sentido TUCURUVI\n\n-DESEMBARQUE NA LUZ\n-EMBARQUE SENTIDO PALMEIRA-BARRA FUNDA\n-DESEMBARQUE NO PALMEIRAS-BARRA FUNDA\n-EMBARQUE NO TREM SENTIDO ITAPEVI\n\nDestino: Carapicuiba"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1731082528143",
+      "conditions": "@Estacao_linha_8:Carapicuíba",
+      "dialog_node": "node_10_1731084683892",
+      "previous_sibling": "node_2_1731084642276"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Origem Vila Mariana, embarque sentido TUCURUVI\n\n-DESEMBARQUE NA LUZ\n-EMBARQUE SENTIDO PALMEIRA-BARRA FUNDA\n-DESEMBARQUE NO PALMEIRAS-BARRA FUNDA\n-EMBARQUE NO TREM SENTIDO ITAPEVI\n\nDestino: Comandante Sapaio"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1731082528143",
+      "conditions": "@Estacao_linha_8:(Comandante Sampaio)",
+      "dialog_node": "node_10_1731084740996",
+      "previous_sibling": "node_5_1731084719315"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Origem Vila Mariana, embarque sentido TUCURUVI\n\n-DESEMBARQUE NA LUZ\n-EMBARQUE SENTIDO PALMEIRA-BARRA FUNDA\n-DESEMBARQUE NO PALMEIRAS-BARRA FUNDA\n-EMBARQUE NO TREM SENTIDO ITAPEVI\n\nDestino: Presidente Altino"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1731082528143",
+      "conditions": "@Estacao_linha_8:(Presidente Altino)",
+      "dialog_node": "node_10_1731085614421",
+      "previous_sibling": "node_2_1731085580342"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Origem Vila Mariana, embarque sentido TUCURUVI\n\n-DESEMBARQUE NA LUZ\n-EMBARQUE SENTIDO PALMEIRA-BARRA FUNDA\n-DESEMBARQUE NO PALMEIRAS-BARRA FUNDA\n-EMBARQUE NO TREM SENTIDO ITAPEVI\n-DESEMBARQUE NO PRESIDENTE ALTINO\n-EMBARQUE NO TREM SENTIDO GRAJAÚ\n\nDestino: Vila Lobos-Jaguaré"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1731082821407",
+      "conditions": "@Estacao_linha_9:(Vila Lobos - Jaguaré)",
+      "dialog_node": "node_10_1731085963728",
+      "previous_sibling": "node_4_1731085867809"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Origem Vila Mariana, embarque sentido TUCURUVI\n\n-DESEMBARQUE NA LUZ\n-EMBARQUE SENTIDO PALMEIRA-BARRA FUNDA\n-DESEMBARQUE NO PALMEIRAS-BARRA FUNDA\n-EMBARQUE NO TREM SENTIDO ITAPEVI\n-DESEMBARQUE NO PRESIDENTE ALTINO\n-EMBARQUE NO TREM SENTIDO GRAJAÚ\n\nDestino: Morumbi"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1731082821407",
+      "conditions": "@Estacao_linha_9:Morumbi",
+      "dialog_node": "node_10_1731086157205",
+      "previous_sibling": "node_5_1731086134526"
+    },
+    {
+      "type": "frame",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Olá, $Nome! Seja bem-vindo(a) ao atendimento sobre o metrô! Como posso te ajudar hoje?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "#Saudacao",
+      "dialog_node": "node_1_1731081670253",
+      "previous_sibling": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Origem Vila Mariana, embarque sentido TUCURUVI\n\n-DESEMBARQUE NA LUZ\n-EMBARQUE SENTIDO PALMEIRA-BARRA FUNDA\n-DESEMBARQUE NO PALMEIRAS-BARRA FUNDA\n-EMBARQUE NO TREM SENTIDO ITAPEVI\n\nDestino: Santa Ambutá"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1731082528143",
+      "conditions": "@Estacao_linha_8:Ambuitá",
+      "dialog_node": "node_1_1731084553831",
+      "previous_sibling": "node_7_1731084507863"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Origem Vila Mariana, embarque sentido TUCURUVI\n\n-DESEMBARQUE NA LUZ\n-EMBARQUE SENTIDO PALMEIRA-BARRA FUNDA\n-DESEMBARQUE NO PALMEIRAS-BARRA FUNDA\n-EMBARQUE NO TREM SENTIDO JÚLIO PRESTES\n\nDestino: Júlio Prestes"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1731082528143",
+      "conditions": "@Estacao_linha_8:(Júlio Prestes)",
+      "dialog_node": "node_1_1731085498830",
+      "previous_sibling": "node_9_1731085464408"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Origem Vila Mariana, embarque sentido TUCURUVI\n\n-DESEMBARQUE NA LUZ\n-EMBARQUE SENTIDO PALMEIRA-BARRA FUNDA\n-DESEMBARQUE NO PALMEIRAS-BARRA FUNDA\n-EMBARQUE NO TREM SENTIDO ITAPEVI\n\nDestino: Domingos de Moraes"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1731082528143",
+      "conditions": "@Estacao_linha_8:(Domingos de Moraes)",
+      "dialog_node": "node_1_1731085678404",
+      "previous_sibling": "node_7_1731085653836"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Origem Vila Mariana, embarque sentido TUCURUVI\n\n-DESEMBARQUE NA LUZ\n-EMBARQUE SENTIDO PALMEIRA-BARRA FUNDA\n-DESEMBARQUE NO PALMEIRAS-BARRA FUNDA\n-EMBARQUE NO TREM SENTIDO ITAPEVI\n-DESEMBARQUE NO PRESIDENTE ALTINO\n-EMBARQUE NO TREM SENTIDO GRAJAÚ\n\nDestino: Santo Amaro"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1731082821407",
+      "conditions": "@Estacao_linha_9:(Santo Amaro)",
+      "dialog_node": "node_1_1731086178741",
+      "previous_sibling": "node_10_1731086157205"
+    },
+    {
+      "type": "standard",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_7_1731082821407"
+      },
+      "conditions": "#Consultar_rota && @Linha:(Linha 9)",
+      "dialog_node": "node_1_1731086522064",
+      "previous_sibling": "node_4_1731082419412"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Origem Vila Mariana, embarque sentido TUCURUVI\n\n-DESEMBARQUE NA LUZ\n-EMBARQUE SENTIDO PALMEIRA-BARRA FUNDA\n-DESEMBARQUE NO PALMEIRAS-BARRA FUNDA\n-EMBARQUE NO TREM SENTIDO ITAPEVI\n\nDestino: Barueri"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1731082528143",
+      "conditions": "@Estacao_linha_8:Barueri",
+      "dialog_node": "node_2_1731084642276",
+      "previous_sibling": "node_5_1731084595550"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Origem Vila Mariana, embarque sentido TUCURUVI\n\n-DESEMBARQUE NA LUZ\n-EMBARQUE SENTIDO PALMEIRA-BARRA FUNDA\n-DESEMBARQUE NO PALMEIRAS-BARRA FUNDA\n-EMBARQUE NO TREM SENTIDO ITAPEVI\n\nDestino: Lapa"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1731082528143",
+      "conditions": "@Estacao_linha_8:Lapa",
+      "dialog_node": "node_2_1731085537926",
+      "previous_sibling": "node_1_1731085498830"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Origem Vila Mariana, embarque sentido TUCURUVI\n\n-DESEMBARQUE NA LUZ\n-EMBARQUE SENTIDO PALMEIRA-BARRA FUNDA\n-DESEMBARQUE NO PALMEIRAS-BARRA FUNDA\n\nDestino: Palmeiras-Barra Funda"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1731082528143",
+      "conditions": "@Estacao_linha_8:(Palmeiras-Barra Funda)",
+      "dialog_node": "node_2_1731085580342",
+      "previous_sibling": "node_6_1731085554590"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Origem Vila Mariana, embarque sentido TUCURUVI\n\n-DESEMBARQUE NA LUZ\n-EMBARQUE SENTIDO PALMEIRA-BARRA FUNDA\n-DESEMBARQUE NO PALMEIRAS-BARRA FUNDA\n-EMBARQUE NO TREM SENTIDO ITAPEVI\n\nDestino: Santa Rita"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1731082528143",
+      "conditions": "@Estacao_linha_8:(Santa Rita)",
+      "dialog_node": "node_2_1731085705540",
+      "previous_sibling": "node_1_1731085678404"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "1 – Museu da Língua Portuguesa – Estação Júlio Prestes\n2 – Sala São Paulo – Estação Júlio Prestes\n3 – Mercado Municipal da Lapa – Estação Lapa\n4 – Parque da Água Branca – Estação Palmeiras-Barra Funda\n\nCaso queira ir para algum ponto basta solicitar a rota para a linha e estação"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1731088834746",
+      "conditions": "@Linha:(Linha 8)",
+      "dialog_node": "node_2_1731088974322"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Qual estação da linha 8 - Diamante deseja ir?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1731082447473",
+      "conditions": "@Linha:(Linha 8)",
+      "dialog_node": "node_3_1731082528143"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Origem Vila Mariana, embarque sentido TUCURUVI\n\n-DESEMBARQUE NA LUZ\n-EMBARQUE SENTIDO PALMEIRA-BARRA FUNDA\n-DESEMBARQUE NO PALMEIRAS-BARRA FUNDA\n-EMBARQUE NO TREM SENTIDO ITAPEVI\n\nDestino: Engenharia Cardoso"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1731082528143",
+      "conditions": "@Estacao_linha_8:(Engenheiro Cardoso)",
+      "dialog_node": "node_3_1731085277618",
+      "previous_sibling": "node_9_1731085245747"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Origem Vila Mariana, embarque sentido TUCURUVI\n\n-DESEMBARQUE NA LUZ\n-EMBARQUE SENTIDO PALMEIRA-BARRA FUNDA\n-DESEMBARQUE NO PALMEIRAS-BARRA FUNDA\n-EMBARQUE NO TREM SENTIDO ITAPEVI\n\nDestino: Jandira"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1731082528143",
+      "conditions": "@Estacao_linha_8:Jandira",
+      "dialog_node": "node_3_1731085433711",
+      "previous_sibling": "node_4_1731085400017"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Origem Vila Mariana, embarque sentido TUCURUVI\n\n-DESEMBARQUE NA LUZ\n-EMBARQUE SENTIDO PALMEIRA-BARRA FUNDA\n-DESEMBARQUE NO PALMEIRAS-BARRA FUNDA\n-EMBARQUE NO TREM SENTIDO ITAPEVI\n-DESEMBARQUE NO PRESIDENTE ALTINO\n-EMBARQUE NO TREM SENTIDO GRAJAÚ\n\nDestino: Socorro"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1731082821407",
+      "conditions": "@Estacao_linha_9:Socorro",
+      "dialog_node": "node_3_1731086202733",
+      "previous_sibling": "node_1_1731086178741"
+    },
+    {
+      "type": "standard",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_3_1731082528143"
+      },
+      "conditions": "#Consultar_rota && @Linha:(Linha 8)",
+      "dialog_node": "node_4_1731082419412",
+      "previous_sibling": "node_7_1731088834746"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Origem Vila Mariana, embarque sentido TUCURUVI\n\n-DESEMBARQUE NA LUZ\n-EMBARQUE SENTIDO PALMEIRA-BARRA FUNDA\n-DESEMBARQUE NO PALMEIRAS-BARRA FUNDA\n-EMBARQUE NO TREM SENTIDO ITAPEVI\n\nDestino: Gen. Miguel Costa"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1731082528143",
+      "conditions": "@Estacao_linha_8:(Gen. Minguel Costa)",
+      "dialog_node": "node_4_1731085301266",
+      "previous_sibling": "node_3_1731085277618"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Origem Vila Mariana, embarque sentido TUCURUVI\n\n-DESEMBARQUE NA LUZ\n-EMBARQUE SENTIDO PALMEIRA-BARRA FUNDA\n-DESEMBARQUE NO PALMEIRAS-BARRA FUNDA\n-EMBARQUE NO TREM SENTIDO ITAPEVI\n\nDestino: Itapevi"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1731082528143",
+      "conditions": "@Estacao_linha_8:Itapevi",
+      "dialog_node": "node_4_1731085400017",
+      "previous_sibling": "node_6_1731085368104"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Origem Vila Mariana, embarque sentido TUCURUVI\n\n-DESEMBARQUE NA LUZ\n-EMBARQUE SENTIDO PALMEIRA-BARRA FUNDA\n-DESEMBARQUE NO PALMEIRAS-BARRA FUNDA\n-EMBARQUE NO TREM SENTIDO ITAPEVI\n-DESEMBARQUE NO PRESIDENTE ALTINO\n-EMBARQUE NO TREM SENTIDO GRAJAÚ\n\nDestino: Ceasa"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1731082821407",
+      "conditions": "@Estacao_linha_9:Ceasa",
+      "dialog_node": "node_4_1731085867809"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Origem Vila Mariana, embarque sentido TUCURUVI\n\n-DESEMBARQUE NA LUZ\n-EMBARQUE SENTIDO PALMEIRA-BARRA FUNDA\n-DESEMBARQUE NO PALMEIRAS-BARRA FUNDA\n-EMBARQUE NO TREM SENTIDO ITAPEVI\n-DESEMBARQUE NO PRESIDENTE ALTINO\n-EMBARQUE NO TREM SENTIDO GRAJAÚ\n\nDestino: Hebraica-Rebouças"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1731082821407",
+      "conditions": "@Estacao_linha_9:Hebraica-Rebouças",
+      "dialog_node": "node_4_1731086064727",
+      "previous_sibling": "node_6_1731086047104"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Origem Vila Mariana, embarque sentido TUCURUVI\n\n-DESEMBARQUE NA LUZ\n-EMBARQUE SENTIDO PALMEIRA-BARRA FUNDA\n-DESEMBARQUE NO PALMEIRAS-BARRA FUNDA\n-EMBARQUE NO TREM SENTIDO ITAPEVI\n-DESEMBARQUE NO PRESIDENTE ALTINO\n-EMBARQUE NO TREM SENTIDO GRAJAÚ\n\nDestino: Primavera-Interlagos"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1731082821407",
+      "conditions": "@Estacao_linha_9:Primavera-Interlagos",
+      "dialog_node": "node_4_1731086297212",
+      "previous_sibling": "node_6_1731086265701"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Origem Vila Mariana, embarque sentido TUCURUVI\n\n-DESEMBARQUE NA LUZ\n-EMBARQUE SENTIDO PALMEIRA-BARRA FUNDA\n-DESEMBARQUE NO PALMEIRAS-BARRA FUNDA\n-EMBARQUE NO TREM SENTIDO ITAPEVI\n-DESEMBARQUE NO PRESIDENTE ALTINO\n-EMBARQUE NO TREM SENTIDO OSASCO\n\nDestino: Osasco"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1731082821407",
+      "conditions": "@Estacao_linha_9:Osasco",
+      "dialog_node": "node_4_1731086341339",
+      "previous_sibling": "node_9_1731086319628"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para ter informações mais precisas sobre a lotação atual, recomendo consultar o aplicativo oficial do metrô ou nosso site. Geralmente, os horários de pico (de 7h às 9h e de 17h às 19h) costumam ser mais movimentados."
+              },
+              {
+                "text": "A lotação do metrô pode variar bastante ao longo do dia e de acordo com o dia da semana."
+              },
+              {
+                "text": "No geral, as estações costumam ficar mais lotadas nos horários de pico. Mas é possível encontrar horários com menos movimento."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "#Lotacao",
+      "dialog_node": "node_4_1731086718247",
+      "previous_sibling": "node_7_1731082447473"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Origem Vila Mariana, embarque sentido TUCURUVI\n\n-DESEMBARQUE NA LUZ\n-EMBARQUE SENTIDO PALMEIRA-BARRA FUNDA\n-DESEMBARQUE NO PALMEIRAS-BARRA FUNDA\n-EMBARQUE NO TREM SENTIDO ITAPEVI\n\nDestino: Antônio João"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1731082528143",
+      "conditions": "@Estacao_linha_8:(Antônio João)",
+      "dialog_node": "node_5_1731084595550",
+      "previous_sibling": "node_1_1731084553831"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Origem Vila Mariana, embarque sentido TUCURUVI\n\n-DESEMBARQUE NA LUZ\n-EMBARQUE SENTIDO PALMEIRA-BARRA FUNDA\n-DESEMBARQUE NO PALMEIRAS-BARRA FUNDA\n-EMBARQUE NO TREM SENTIDO ITAPEVI\n\nDestino: Cimenrita"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1731082528143",
+      "conditions": "@Estacao_linha_8:Cimenrita",
+      "dialog_node": "node_5_1731084719315",
+      "previous_sibling": "node_10_1731084683892"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Origem Vila Mariana, embarque sentido TUCURUVI\n\n-DESEMBARQUE NA LUZ\n-EMBARQUE SENTIDO PALMEIRA-BARRA FUNDA\n-DESEMBARQUE NO PALMEIRAS-BARRA FUNDA\n-EMBARQUE NO TREM SENTIDO ITAPEVI\n-DESEMBARQUE NO PRESIDENTE ALTINO\n-EMBARQUE NO TREM SENTIDO GRAJAÚ\n\nDestino: Vila Olímpia"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1731082821407",
+      "conditions": "@Estacao_linha_9:(Vila Olímpia)",
+      "dialog_node": "node_5_1731086090015",
+      "previous_sibling": "node_4_1731086064727"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Origem Vila Mariana, embarque sentido TUCURUVI\n\n-DESEMBARQUE NA LUZ\n-EMBARQUE SENTIDO PALMEIRA-BARRA FUNDA\n-DESEMBARQUE NO PALMEIRAS-BARRA FUNDA\n-EMBARQUE NO TREM SENTIDO ITAPEVI\n-DESEMBARQUE NO PRESIDENTE ALTINO\n-EMBARQUE NO TREM SENTIDO GRAJAÚ\n\nDestino: Granja Julieta"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1731082821407",
+      "conditions": "@Estacao_linha_9:(Granja Julieta)",
+      "dialog_node": "node_5_1731086134526",
+      "previous_sibling": "node_8_1731086112606"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Origem Vila Mariana, embarque sentido TUCURUVI\n\n-DESEMBARQUE NA LUZ\n-EMBARQUE SENTIDO PALMEIRA-BARRA FUNDA\n-DESEMBARQUE NO PALMEIRAS-BARRA FUNDA\n-EMBARQUE NO TREM SENTIDO ITAPEVI\n-DESEMBARQUE NO PRESIDENTE ALTINO\n-EMBARQUE NO TREM SENTIDO GRAJAÚ\n\nDestino: Autódromo"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1731082821407",
+      "conditions": "@Estacao_linha_9:Autódromo",
+      "dialog_node": "node_5_1731086240525",
+      "previous_sibling": "node_6_1731086219757"
+    },
+    {
+      "type": "standard",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_6_1731087974945"
+      },
+      "conditions": "#Perguntas_frequentes && @Tipo_bilhete",
+      "dialog_node": "node_5_1731088426694",
+      "previous_sibling": "node_8_1731087782092"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Origem Vila Mariana, embarque sentido TUCURUVI\n\n-DESEMBARQUE NA LUZ\n-EMBARQUE SENTIDO PALMEIRA-BARRA FUNDA\n-DESEMBARQUE NO PALMEIRAS-BARRA FUNDA\n-EMBARQUE NO TREM SENTIDO ITAPEVI\n\nDestino: Imperatriz Leopodina"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1731082528143",
+      "conditions": "@Estacao_linha_8:(Imperatriz Leopodina)",
+      "dialog_node": "node_6_1731085368104",
+      "previous_sibling": "node_4_1731085301266"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Origem Vila Mariana, embarque sentido TUCURUVI\n\n-DESEMBARQUE NA LUZ\n-EMBARQUE SENTIDO PALMEIRA-BARRA FUNDA\n-DESEMBARQUE NO PALMEIRAS-BARRA FUNDA\n-EMBARQUE NO TREM SENTIDO ITAPEVI\n\nDestino: Osasco"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1731082528143",
+      "conditions": "@Estacao_linha_8:Osasco",
+      "dialog_node": "node_6_1731085554590",
+      "previous_sibling": "node_2_1731085537926"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Origem Vila Mariana, embarque sentido TUCURUVI\n\n-DESEMBARQUE NA LUZ\n-EMBARQUE SENTIDO PALMEIRA-BARRA FUNDA\n-DESEMBARQUE NO PALMEIRAS-BARRA FUNDA\n-EMBARQUE NO TREM SENTIDO ITAPEVI\n-DESEMBARQUE NO PRESIDENTE ALTINO\n-EMBARQUE NO TREM SENTIDO GRAJAÚ\n\nDestino: Pinheiros"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1731082821407",
+      "conditions": "@Estacao_linha_9:Pinheiros",
+      "dialog_node": "node_6_1731086047104",
+      "previous_sibling": "node_8_1731086012984"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Origem Vila Mariana, embarque sentido TUCURUVI\n\n-DESEMBARQUE NA LUZ\n-EMBARQUE SENTIDO PALMEIRA-BARRA FUNDA\n-DESEMBARQUE NO PALMEIRAS-BARRA FUNDA\n-EMBARQUE NO TREM SENTIDO ITAPEVI\n-DESEMBARQUE NO PRESIDENTE ALTINO\n-EMBARQUE NO TREM SENTIDO GRAJAÚ\n\nDestino: Jurubatuba"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1731082821407",
+      "conditions": "@Estacao_linha_9:Jurubatuba",
+      "dialog_node": "node_6_1731086219757",
+      "previous_sibling": "node_3_1731086202733"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Origem Vila Mariana, embarque sentido TUCURUVI\n\n-DESEMBARQUE NA LUZ\n-EMBARQUE SENTIDO PALMEIRA-BARRA FUNDA\n-DESEMBARQUE NO PALMEIRAS-BARRA FUNDA\n-EMBARQUE NO TREM SENTIDO ITAPEVI\n-DESEMBARQUE NO PRESIDENTE ALTINO\n-EMBARQUE NO TREM SENTIDO GRAJAÚ\n\nDestino: Grajaú"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1731082821407",
+      "conditions": "@Estacao_linha_9:Grajaú",
+      "dialog_node": "node_6_1731086265701",
+      "previous_sibling": "node_5_1731086240525"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Terminais de autoatendimento: Localizados nas estações, os terminais de autoatendimento permitem que você insira seu bilhete e verifique o saldo disponível ou então realize recargas"
+              },
+              {
+                "text": "Aplicativos: Alguns aplicativos de transporte público permitem que você vincule seu bilhete único e consulte ou recarregue o saldo diretamente pelo seu smartphone."
+              },
+              {
+                "text": "Para mais informações consulte o site: https://www.sptrans.com.br/"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Perguntas_sobre_bilhetes",
+      "dialog_node": "node_6_1731087974945",
+      "previous_sibling": "node_5_1731088426694"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "1 – Parque Cândido Portinari Villa-Lobos - Estação Villa-Lobos Jaguaré\n2 – Ciclovia Rio Pinheiros\n3 – Centro Cultural Grajaú - Estação Grajaú\n4 – Instituto Tomie Ohtake - Estação Pinheiros\n\nCaso queira ir para algum ponto basta solicitar a rota para a linha e estação"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1731088834746",
+      "conditions": "@Linha:(Linha 9)",
+      "dialog_node": "node_6_1731089050690",
+      "previous_sibling": "node_2_1731088974322"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Em geral, as empresas de transporte público não se responsabilizam diretamente por objetos perdidos ou roubados dentro dos veículos. No entanto, elas têm o dever de oferecer um ambiente seguro e tomar medidas para prevenir esses crimes.\n\nComo posso contribuir para a segurança pessoal?\n\nAtenção aos arredores: Mantenha-se atento ao seu entorno e às pessoas ao seu redor.\nProteja seus pertences: Evite carregar objetos de valor à mostra e guarde seus pertences em bolsas ou mochilas fechadas.\nUtilize aplicativos de segurança: Existem aplicativos que podem te ajudar a rastrear seu celular em caso de roubo e até mesmo emitir um alarme.\nInforme-se sobre as rotas: Conheça as rotas que você utiliza com frequência e evite locais isolados ou com pouca iluminação.\nComunique qualquer atitude suspeita: Se você perceber alguma atitude suspeita, informe imediatamente um funcionário da empresa de transporte ou ligue para a polícia."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Furtos_roubos",
+      "dialog_node": "node_6_1731090142722",
+      "previous_sibling": "node_1_1731081670253"
+    },
+    {
+      "type": "frame",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Certo! Você deseja ir para linha 8 - Diamente ou linha 9 - Esmeralda?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Consultar_rota",
+      "dialog_node": "node_7_1731082447473",
+      "previous_sibling": "node_1_1731086522064"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Qual estação da linha 9 - Esmeralda deseja ir?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1731082447473",
+      "conditions": "@Linha:(Linha 9)",
+      "dialog_node": "node_7_1731082821407",
+      "previous_sibling": "node_3_1731082528143"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Origem Vila Mariana, embarque sentido TUCURUVI\n\n-DESEMBARQUE NA LUZ\n-EMBARQUE SENTIDO PALMEIRA-BARRA FUNDA\n-DESEMBARQUE NO PALMEIRAS-BARRA FUNDA\n-EMBARQUE NO TREM SENTIDO ITAPEVI\n\nDestino: Santa Teresinha"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1731082528143",
+      "conditions": "@Estacao_linha_8:(Santa Teresinha)",
+      "dialog_node": "node_7_1731084507863",
+      "previous_sibling": "node_9_1731084221645"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Origem Vila Mariana, embarque sentido TUCURUVI\n\n-DESEMBARQUE NA LUZ\n-EMBARQUE SENTIDO PALMEIRA-BARRA FUNDA\n-DESEMBARQUE NO PALMEIRAS-BARRA FUNDA\n-EMBARQUE NO TREM SENTIDO ITAPEVI\n\nDestino: Quitaúna"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1731082528143",
+      "conditions": "@Estacao_linha_8:Quitaúna",
+      "dialog_node": "node_7_1731085653836",
+      "previous_sibling": "node_10_1731085614421"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "No momento estamos passando por algumas melhorias para garantir que você tenha uma viagem segura e tranquila. Em breve tudo estará normalizado!"
+              },
+              {
+                "text": "No momento o fluxo dos trens estão normalizados!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "#Problemas_nas_linhas && @Problema",
+      "dialog_node": "node_7_1731088638812",
+      "previous_sibling": "node_6_1731087974945"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Bacana! Posso recomendar para você alguns pontos turísticos, você prefere os da linha 8 - Diamante ou linha 9 - Esmeralda"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Ponto_turistico",
+      "dialog_node": "node_7_1731088834746",
+      "previous_sibling": "node_6_1731090142722"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Origem Vila Mariana, embarque sentido TUCURUVI\n\n-DESEMBARQUE NA LUZ\n-EMBARQUE SENTIDO PALMEIRA-BARRA FUNDA\n-DESEMBARQUE NO PALMEIRAS-BARRA FUNDA\n-EMBARQUE NO TREM SENTIDO ITAPEVI\n-DESEMBARQUE NO PRESIDENTE ALTINO\n-EMBARQUE NO TREM SENTIDO GRAJAÚ\n\nDestino: Cidade Universitária"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1731082821407",
+      "conditions": "@Estacao_linha_9:(Cidade Universitária)",
+      "dialog_node": "node_8_1731086012984",
+      "previous_sibling": "node_10_1731085963728"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Origem Vila Mariana, embarque sentido TUCURUVI\n\n-DESEMBARQUE NA LUZ\n-EMBARQUE SENTIDO PALMEIRA-BARRA FUNDA\n-DESEMBARQUE NO PALMEIRAS-BARRA FUNDA\n-EMBARQUE NO TREM SENTIDO ITAPEVI\n-DESEMBARQUE NO PRESIDENTE ALTINO\n-EMBARQUE NO TREM SENTIDO GRAJAÚ\n\nDestino: Barrini"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1731082821407",
+      "conditions": "@Estacao_linha_9:Berrini",
+      "dialog_node": "node_8_1731086112606",
+      "previous_sibling": "node_5_1731086090015"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para saber em qual estação você está, procure por placas indicativas com o nome da estação. Elas geralmente estão localizadas nas plataformas e em pontos estratégicos da estação. "
+              },
+              {
+                "text": "Você pode utilizar o aplicativo oficial do metrô ou outros aplicativos de mapa para identificar sua localização exata dentro da estação."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "#Ponto_partida",
+      "dialog_node": "node_8_1731087573997",
+      "previous_sibling": "node_4_1731086718247"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ops! Parece que o serviço está indisponível no momento, tente novamente mais tarde!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "#Perguntas_frequentes",
+      "dialog_node": "node_8_1731087782092",
+      "previous_sibling": "node_8_1731087573997"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Origem Vila Mariana, embarque sentido TUCURUVI\n\n-DESEMBARQUE NA LUZ\n-EMBARQUE SENTIDO PALMEIRA-BARRA FUNDA\n-DESEMBARQUE NO PALMEIRAS-BARRA FUNDA\n-EMBARQUE NO TREM SENTIDO ITAPEVI\n\nDestino: Barueri"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1731082528143",
+      "conditions": "@Estacao_linha_8:(Amador Bueno)",
+      "dialog_node": "node_9_1731084221645"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Origem Vila Mariana, embarque sentido TUCURUVI\n\n-DESEMBARQUE NA LUZ\n-EMBARQUE SENTIDO PALMEIRA-BARRA FUNDA\n-DESEMBARQUE NO PALMEIRAS-BARRA FUNDA\n-EMBARQUE NO TREM SENTIDO ITAPEVI\n\nDestino: Sagrado Coração"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1731082528143",
+      "conditions": "@Estacao_linha_8:(Sagrado Coração)",
+      "dialog_node": "node_9_1731085245747",
+      "previous_sibling": "node_10_1731084740996"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Origem Vila Mariana, embarque sentido TUCURUVI\n\n-DESEMBARQUE NA LUZ\n-EMBARQUE SENTIDO PALMEIRA-BARRA FUNDA\n-DESEMBARQUE NO PALMEIRAS-BARRA FUNDA\n-EMBARQUE NO TREM SENTIDO ITAPEVI\n\nDestino: Jardim Belval"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1731082528143",
+      "conditions": "@Estacao_linha_8:(Jardim Belval)",
+      "dialog_node": "node_9_1731085464408",
+      "previous_sibling": "node_3_1731085433711"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Origem Vila Mariana, embarque sentido TUCURUVI\n\n-DESEMBARQUE NA LUZ\n-EMBARQUE SENTIDO PALMEIRA-BARRA FUNDA\n-DESEMBARQUE NO PALMEIRAS-BARRA FUNDA\n-EMBARQUE NO TREM SENTIDO ITAPEVI\n-DESEMBARQUE NO PRESIDENTE ALTINO\n-EMBARQUE NO TREM SENTIDO GRAJAÚ\n\nDestino: Presidente Altino"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1731082821407",
+      "conditions": "@Estacao_linha_9:(Presidente Altino)",
+      "dialog_node": "node_9_1731086319628",
+      "previous_sibling": "node_4_1731086297212"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Até breve!"
+              },
+              {
+                "text": "Nos vemos logo!"
+              },
+              {
+                "text": "Boa viagem!"
+              },
+              {
+                "text": "Precisando é só chamar!"
+              },
+              {
+                "text": "tchau!"
+              },
+              {
+                "text": "até!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Despedida",
+      "dialog_node": "node_9_1731089297535",
+      "previous_sibling": "node_7_1731088638812"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1731081670253",
+      "variable": "$Nome",
+      "dialog_node": "slot_2_1731091922802"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "disambiguation": {
+      "prompt": "Você quis dizer:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "Nenhuma das anteriores",
+      "use_connect_to_support_prompt": "Connect to support",
+      "single_answer_clarification_prompt": "Something else"
+    },
+    "human_agent_assist": {
+      "prompt": "Você quis dizer:"
+    }
+  },
+  "learning_opt_out": false,
+  "language": "pt-br",
+  "description": "",
+  "name": "Ajuda nas Estações"
+}

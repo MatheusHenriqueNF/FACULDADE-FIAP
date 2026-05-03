@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C1975AE3-2EE9-EE6C-39DC-4E07EF3607D8" containerWithKeyObject="43142221-838D-4E06-0BED-328466F82324" localFKIndex="4EFB7445-5306-232F-A709-20F163EBA251" name="Ponto_Turistico_Endereco_FK">
+<createdBy>Charllot</createdBy>
+<createdTime>2024-11-06 17:22:48 UTC</createdTime>
+<generatorID>5D948DEB-D2E3-4756-79AD-3A8A3CEC6859</generatorID>
+<ownerDesignName>DER</ownerDesignName>
+<referredTableLongName>Endereco</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>12B14F27-7644-7644-58D1-FEE801F50AC7</referredTableID>
+<keyObject>D680873F-53B2-5101-183F-90D7D1B829A6</keyObject>
+<referredKeyID>D680873F-53B2-5101-183F-90D7D1B829A6</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_endereco</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

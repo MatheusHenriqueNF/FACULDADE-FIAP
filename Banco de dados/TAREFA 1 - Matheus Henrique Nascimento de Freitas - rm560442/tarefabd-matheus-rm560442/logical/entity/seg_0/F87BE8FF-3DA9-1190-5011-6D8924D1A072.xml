@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F87BE8FF-3DA9-1190-5011-6D8924D1A072" name="Tipo_genero">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-16 11:48:50 UTC</createdTime>
+<ownerDesignName>tarefabd-matheus-rm560442</ownerDesignName>
+<engineerTo>
+<item key="CB3E11D9-E8CF-B7C9-58DC-9C217804D651" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_genero" id="52F48BA9-22D7-3496-532A-6A7D3A2842D2">
+<createdBy>Charllot</createdBy>
+<createdTime>2024-09-18 21:56:39 UTC</createdTime>
+<ownerDesignName>tarefabd-matheus-rm560442</ownerDesignName>
+<engineerTo>
+<item key="CB3E11D9-E8CF-B7C9-58DC-9C217804D651" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo" id="67C02BC8-AE37-D754-F2CE-55701B6AF416">
+<createdBy>Charllot</createdBy>
+<createdTime>2024-09-18 21:57:02 UTC</createdTime>
+<ownerDesignName>tarefabd-matheus-rm560442</ownerDesignName>
+<engineerTo>
+<item key="CB3E11D9-E8CF-B7C9-58DC-9C217804D651" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_cliente" id="9673BD52-5586-FAAE-0B94-F8FC089C5CDE">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-16 11:49:15 UTC</createdTime>
+<generatorID>78E99668-8F4D-AFCC-D7FF-0792F5C5F877</generatorID>
+<ownerDesignName>tarefabd-matheus-rm560442</ownerDesignName>
+<engineerTo>
+<item key="CB3E11D9-E8CF-B7C9-58DC-9C217804D651" value="true"/>
+</engineerTo>
+<referedAttribute>0D7B67A6-8EF4-855E-770A-65B3BD6F3535</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_ven" id="867D6B77-A870-6252-BAD3-3DB53FC60381">
+<createdBy>Charllot</createdBy>
+<createdTime>2024-09-18 23:12:37 UTC</createdTime>
+<generatorID>6751B62C-8A4B-F2ED-CEF8-3708081A75F2</generatorID>
+<ownerDesignName>tarefabd-matheus-rm560442</ownerDesignName>
+<engineerTo>
+<item key="CB3E11D9-E8CF-B7C9-58DC-9C217804D651" value="true"/>
+</engineerTo>
+<referedAttribute>4D3110BA-A2E0-E019-BD65-82B072655740</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="973C38BF-3C3E-5057-41F7-F98D2DD853F6" name="Tipo_genero PK">
+<createdBy>Charllot</createdBy>
+<createdTime>2024-09-18 21:56:53 UTC</createdTime>
+<ownerDesignName>tarefabd-matheus-rm560442</ownerDesignName>
+<engineerTo>
+<item key="CB3E11D9-E8CF-B7C9-58DC-9C217804D651" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>52F48BA9-22D7-3496-532A-6A7D3A2842D2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

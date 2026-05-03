@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3E6418D6-E20D-47EE-E49D-1B5A339180B4" name="Endereco">
+<createdBy>Charllot</createdBy>
+<createdTime>2024-09-29 18:34:11 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<engineerTo>
+<item key="732D495E-071D-9985-2170-0563BCA20460" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_endereco" id="288C8016-82C8-5459-80AB-E38BC5236B84">
+<createdBy>Charllot</createdBy>
+<createdTime>2024-09-29 18:34:19 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<engineerTo>
+<item key="732D495E-071D-9985-2170-0563BCA20460" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="logradouro" id="D2B0F056-1531-2CA8-26CE-D95211C20D19">
+<createdBy>Charllot</createdBy>
+<createdTime>2024-09-29 18:34:33 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<engineerTo>
+<item key="732D495E-071D-9985-2170-0563BCA20460" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ponto_referencia" id="FE92C6F8-3EEA-6D75-52D6-E59F572A2630">
+<createdBy>Charllot</createdBy>
+<createdTime>2024-09-29 18:35:22 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<engineerTo>
+<item key="732D495E-071D-9985-2170-0563BCA20460" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_bairro" id="8228DF9E-30AE-9E7A-CC3C-EABF7649DC9A">
+<createdBy>Charllot</createdBy>
+<createdTime>2024-10-10 04:01:26 UTC</createdTime>
+<generatorID>C7E2317B-C150-E6C9-A064-7A3A0DD749BE</generatorID>
+<ownerDesignName>DER</ownerDesignName>
+<engineerTo>
+<item key="732D495E-071D-9985-2170-0563BCA20460" value="true"/>
+</engineerTo>
+<referedAttribute>7501019C-0596-23DF-B127-B3AC0AED6049</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_cep" id="A1565D50-1D70-8DCB-E5E9-D15544D9F748">
+<createdBy>Charllot</createdBy>
+<createdTime>2024-10-10 04:03:58 UTC</createdTime>
+<generatorID>FD0DACF9-7695-BABF-89B9-036D867D82F5</generatorID>
+<ownerDesignName>DER</ownerDesignName>
+<engineerTo>
+<item key="732D495E-071D-9985-2170-0563BCA20460" value="true"/>
+</engineerTo>
+<referedAttribute>6F5A4BA0-08D8-5432-A73C-197D889A42A6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A47666C2-4E2E-3ACC-9CEB-903DB739F137" name="Endereco PK">
+<createdBy>Charllot</createdBy>
+<createdTime>2024-09-29 18:36:15 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<engineerTo>
+<item key="732D495E-071D-9985-2170-0563BCA20460" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>288C8016-82C8-5459-80AB-E38BC5236B84</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
