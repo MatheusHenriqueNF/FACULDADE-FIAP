@@ -1,0 +1,147 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1867046A-94C8-1F62-FA67-30F1B15694A0" name="Pergunta_Frequente">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-03-06 19:21:13 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="3AC7DF6E-6946-22A9-7C18-6D9F655F0254" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_pergunta" id="C3666946-31F2-3012-B7D7-FD61F2A7095D">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-03-06 19:21:31 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="3AC7DF6E-6946-22A9-7C18-6D9F655F0254" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pergunta" id="7FCA4188-CDEA-F918-05FA-64EE9F285C94">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-03-06 19:21:46 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="3AC7DF6E-6946-22A9-7C18-6D9F655F0254" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="resposta" id="B60286EE-2470-1DC1-81CC-2E1697E6B424">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-03-06 19:22:01 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="3AC7DF6E-6946-22A9-7C18-6D9F655F0254" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_idioma" id="DE21A870-8025-FBF6-A744-4E5B79B2D7E8">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-03-06 21:47:40 UTC</createdTime>
+<generatorID>33594CC9-6406-78F5-3FD2-FE59AA3A7AF2</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="3AC7DF6E-6946-22A9-7C18-6D9F655F0254" value="true"/>
+</engineerTo>
+<referedAttribute>6E4C1849-9A49-A8A1-492A-6193D73E2073</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_estacao" id="D4A9AFD1-14B5-659E-12D2-77CE4C338676">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-03-06 21:50:49 UTC</createdTime>
+<generatorID>1075588E-FE4D-9E69-C9C0-E901E007CD9D</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="3AC7DF6E-6946-22A9-7C18-6D9F655F0254" value="true"/>
+</engineerTo>
+<referedAttribute>3C1362A0-64FC-11B2-6DF7-DB2BFED747F6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_categoria" id="993A5F83-1C5B-E1D7-A21F-6FDE02EAB15E">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-03-06 21:56:50 UTC</createdTime>
+<generatorID>D6CBAE7E-59C8-33D1-F0C3-553461A6C5F4</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="3AC7DF6E-6946-22A9-7C18-6D9F655F0254" value="true"/>
+</engineerTo>
+<referedAttribute>3F510665-8A39-6201-EFD4-7FC58E8B7FC9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status" id="51C66E0B-73F8-3F25-ED61-8C3613FFDA96">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-03-06 21:59:31 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="3AC7DF6E-6946-22A9-7C18-6D9F655F0254" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_usuario" id="389476CF-05FE-261F-1DB7-51681301DDD4">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-03-06 23:39:23 UTC</createdTime>
+<generatorID>F013B166-CE3A-CF30-1DF4-4BDB1C6DF6FA</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="3AC7DF6E-6946-22A9-7C18-6D9F655F0254" value="true"/>
+</engineerTo>
+<referedAttribute>2BEFF7BD-8645-4070-5D98-DB75D2E5BCF2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C5390ED8-12C3-5173-52E8-6834FA966CF1" name="Pergunta_Frequente PK">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-03-06 19:21:44 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="3AC7DF6E-6946-22A9-7C18-6D9F655F0254" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C3666946-31F2-3012-B7D7-FD61F2A7095D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

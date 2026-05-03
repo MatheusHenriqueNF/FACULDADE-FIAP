@@ -1,0 +1,10 @@
+Decisão sobre a Não Utilização da Responsividade no Projeto
+
+A decisão de não implementar responsividade neste projeto foi tomada com base nas necessidades específicas de exibição das telas e no contexto de uso da aplicação.
+
+1. **Tela do Totem**: O projeto será executado em um totem com uma tela de tamanho fixo, variando entre 1200px e 1700px. Como não há variação significativa nas dimensões da tela, a responsividade não se fez necessária, pois a interface foi projetada para funcionar corretamente dentro dessas especificações fixas.
+
+2. **Tela do Site**: A aplicação web foi desenvolvida para ser acessada exclusivamente em dispositivos com telas de tamanho igual ou superior a 800px. Isso garante que os dados sejam apresentados corretamente e de forma otimizada para a experiência do usuário. Como não há necessidade de suporte para dispositivos menores, como smartphones ou tablets, a responsividade foi dispensada.
+
+Portanto, a escolha de não utilizar técnicas de design responsivo foi uma decisão estratégica baseada nas exigências do projeto e no ambiente onde a aplicação será utilizada. Caso futuramente haja a necessidade de adaptação para diferentes tamanhos de tela, a responsividade poderá ser implementada conforme as novas demandas.
+

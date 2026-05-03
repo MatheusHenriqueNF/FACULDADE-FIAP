@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7695C321-4046-A3EF-C3D1-6968DA660D05" containerWithKeyObject="C519CC71-CCE5-AC37-DEC7-C1DCA9B067EE" localFKIndex="D44B4DD8-388E-7734-1876-25DBBB2969AC" name="Pergunta_Frequente_Idioma_FK">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-03-12 01:36:35 UTC</createdTime>
+<generatorID>33594CC9-6406-78F5-3FD2-FE59AA3A7AF2</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<referredTableLongName>Idioma</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2B0985C2-FA5D-AF0B-EBFF-5C5675492610</referredTableID>
+<keyObject>CBF13293-A209-9814-605E-6A2EB082629D</keyObject>
+<referredKeyID>CBF13293-A209-9814-605E-6A2EB082629D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_idioma</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

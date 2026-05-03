@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="171958FB-63CA-1200-AD56-907EED94729B" name="Challenge_Linha">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-03-12 01:36:35 UTC</createdTime>
+<generatorID>52A08BFE-0281-56C8-8BEE-76F35CD5D22B</generatorID>
+<ownerDesignName>Diag</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_linha" id="C67456D4-4292-076C-8159-A10D6E97A7D2">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-03-12 01:36:35 UTC</createdTime>
+<generatorID>6E7AB125-30E9-57F9-B5B4-3A6B1C946743</generatorID>
+<ownerDesignName>Diag</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome_linha" id="A9934335-FCA3-9575-C4D8-A8B4C7D68ABF">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-03-12 01:36:35 UTC</createdTime>
+<generatorID>07B3C173-57F0-5F73-64BF-D3A1E97EE6E4</generatorID>
+<ownerDesignName>Diag</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="2E2F842C-F42E-9789-34B2-0A65A49741A1">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-03-12 01:36:35 UTC</createdTime>
+<generatorID>CEE899A8-468E-70C7-840D-56CE801DA8F5</generatorID>
+<ownerDesignName>Diag</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Challenge_Usuario_id_usuario" id="B92F2090-EED2-C102-A6F6-12C5279DE6E7">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-03-12 01:36:35 UTC</createdTime>
+<generatorID>C5BB9110-EB64-4AE7-D68F-DBFF0461360C</generatorID>
+<ownerDesignName>Diag</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="82FC194C-33FF-4592-BA86-3FD0064AEFBA" referredColumn="3C3C75B3-E613-C40E-695B-7432C330EA0B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="395C2B4A-D228-A5E6-62F8-E71791FADEBA" name="Linha_PK">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-03-12 01:36:35 UTC</createdTime>
+<generatorID>B4C66827-D4D9-359F-3BC9-F052CFB8A6C5</generatorID>
+<ownerDesignName>Diag</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C67456D4-4292-076C-8159-A10D6E97A7D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F2B0F3B9-7EEF-46B2-90AC-DC4E357926EC" name="Linha_nome_linha_UN">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-03-12 01:36:35 UTC</createdTime>
+<generatorID>3A13E647-28B2-B46E-5164-775929582574</generatorID>
+<ownerDesignName>Diag</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A9934335-FCA3-9575-C4D8-A8B4C7D68ABF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D03E851B-2468-437E-184B-3D513137ED0E" name="Challenge_Linha_Challenge_Usuario_FK">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-03-12 01:36:35 UTC</createdTime>
+<generatorID>6F5199AA-59E4-31F2-A092-9EC257368737</generatorID>
+<ownerDesignName>Diag</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B92F2090-EED2-C102-A6F6-12C5279DE6E7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="96E9B612-E2FD-9131-DF86-090A76472358" name="Logs">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-03-06 23:14:39 UTC</createdTime>
+<ownerDesignName>Relacional</ownerDesignName>
+<engineerTo>
+<item key="3AC7DF6E-6946-22A9-7C18-6D9F655F0254" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_log" id="03D59F4A-E436-4AB0-4FCE-105B0E37FEEB">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-03-06 23:14:48 UTC</createdTime>
+<ownerDesignName>Relacional</ownerDesignName>
+<engineerTo>
+<item key="3AC7DF6E-6946-22A9-7C18-6D9F655F0254" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="acao" id="BB9BAB08-52C6-E90C-4BA3-073743752C54">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-03-06 23:15:00 UTC</createdTime>
+<ownerDesignName>Relacional</ownerDesignName>
+<engineerTo>
+<item key="3AC7DF6E-6946-22A9-7C18-6D9F655F0254" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_hora_acao" id="C8D9B291-F7E7-D327-D8B6-499117C70423">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-03-06 23:15:50 UTC</createdTime>
+<ownerDesignName>Relacional</ownerDesignName>
+<engineerTo>
+<item key="3AC7DF6E-6946-22A9-7C18-6D9F655F0254" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tabela_afetada" id="BC868336-E28A-7E2C-8B9F-AB815A3F565A">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-03-06 23:16:14 UTC</createdTime>
+<ownerDesignName>Relacional</ownerDesignName>
+<engineerTo>
+<item key="3AC7DF6E-6946-22A9-7C18-6D9F655F0254" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_usuario" id="37FA45F8-4AA6-2736-0296-5FFB85912307">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-03-06 23:27:17 UTC</createdTime>
+<generatorID>C7B2759B-6946-6022-8A34-E6EB1373543D</generatorID>
+<ownerDesignName>Relacional</ownerDesignName>
+<engineerTo>
+<item key="3AC7DF6E-6946-22A9-7C18-6D9F655F0254" value="true"/>
+</engineerTo>
+<referedAttribute>2BEFF7BD-8645-4070-5D98-DB75D2E5BCF2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FAAB89D7-959C-4C12-B87C-E04C40440996" name="Logs PK">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-03-06 23:14:57 UTC</createdTime>
+<ownerDesignName>Relacional</ownerDesignName>
+<engineerTo>
+<item key="3AC7DF6E-6946-22A9-7C18-6D9F655F0254" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>03D59F4A-E436-4AB0-4FCE-105B0E37FEEB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

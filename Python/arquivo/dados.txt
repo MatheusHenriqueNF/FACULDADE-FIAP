@@ -1,0 +1,4 @@
+Na aula de hoje aprendemos a como tratar execeções
+utilizando a linguagem Pyhton.
+
+Também vimos um pouco de

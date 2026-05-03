@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3C83C058-B43E-1F5D-6AFC-E055D9D4D41A" name="Challenge_Usuario">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-03-12 01:36:35 UTC</createdTime>
+<generatorID>CE7CC15A-CEC1-F515-EFBF-59B462E453C7</generatorID>
+<ownerDesignName>Diag</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_usuario" id="3C3C75B3-E613-C40E-695B-7432C330EA0B">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-03-12 01:36:35 UTC</createdTime>
+<generatorID>2BEFF7BD-8645-4070-5D98-DB75D2E5BCF2</generatorID>
+<ownerDesignName>Diag</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome_usuario" id="7E03CF1C-D0E9-5677-EF22-23BC1AE4173E">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-03-12 01:36:35 UTC</createdTime>
+<generatorID>559FDDF6-2CE0-7B2E-8264-4B17AD446ED1</generatorID>
+<ownerDesignName>Diag</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="senha" id="8464EAA4-5E9C-0F76-C3DD-7C5EE2DEE173">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-03-12 01:36:35 UTC</createdTime>
+<generatorID>BCEEA742-0125-EBEC-464C-004F80E23BD1</generatorID>
+<ownerDesignName>Diag</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ultimo_acesso" id="3188B7B3-6447-5B61-7EF3-A69DD4BD6256">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-03-12 01:36:35 UTC</createdTime>
+<generatorID>EFA5FCB7-A93F-9BC0-FDD5-3BAA03796A38</generatorID>
+<ownerDesignName>Diag</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Challenge_Tipo_Usuario_id_tipo_usuario" id="C1C91477-39DE-5B54-2D17-FBAFC60D0D37">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-03-12 01:36:35 UTC</createdTime>
+<generatorID>A8C8B975-2145-4EBF-3D0E-9431F6167C33</generatorID>
+<ownerDesignName>Diag</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EA96E859-95B3-F688-2AD0-602F342F834E" referredColumn="83BF8211-1250-02A2-DD7E-E3CC87FBE743"/>
+</associations>
+</Column>
+<Column name="status" id="0EAA30F4-A7AF-65E0-3DED-5225FC506F41">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-03-12 01:36:35 UTC</createdTime>
+<generatorID>DB92A702-0A57-6631-ACA5-284DDA10C3B4</generatorID>
+<ownerDesignName>Diag</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="09A6B99A-0E8B-3EBE-4A44-A2607E0E2030" name="Usuario_PK">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-03-12 01:36:35 UTC</createdTime>
+<generatorID>F7AF4CB1-ECD1-754F-232B-CAC253002136</generatorID>
+<ownerDesignName>Diag</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3C3C75B3-E613-C40E-695B-7432C330EA0B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6BF5752F-0BCE-A858-13EA-D95C84D38870" name="Usuario_nome_usuario_UN">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-03-12 01:36:35 UTC</createdTime>
+<generatorID>EBC59AAD-0D19-9D9C-EA9A-357756D51756</generatorID>
+<ownerDesignName>Diag</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7E03CF1C-D0E9-5677-EF22-23BC1AE4173E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D097F0FA-BBEE-DB9F-824C-6B5BF774A871" name="Challenge_Usuario_Challenge_Tipo_Usuario_FK">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-03-12 01:36:35 UTC</createdTime>
+<generatorID>8C822D57-1760-4E42-D08F-594DE634C132</generatorID>
+<ownerDesignName>Diag</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C1C91477-39DE-5B54-2D17-FBAFC60D0D37"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

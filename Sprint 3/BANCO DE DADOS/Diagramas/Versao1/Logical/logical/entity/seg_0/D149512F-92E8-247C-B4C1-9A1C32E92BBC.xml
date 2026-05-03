@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D149512F-92E8-247C-B4C1-9A1C32E92BBC" name="Tipo_Usuario">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-03-06 23:11:59 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="3AC7DF6E-6946-22A9-7C18-6D9F655F0254" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_tipo_usuario" id="CC5885CE-6544-0960-AD6D-90F5034616B7">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-03-06 23:12:16 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="3AC7DF6E-6946-22A9-7C18-6D9F655F0254" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome_tipo_usuario" id="F74EDBBF-0F98-A413-7A25-EC6435E31847">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-03-06 23:12:36 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="3AC7DF6E-6946-22A9-7C18-6D9F655F0254" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status" id="B32800B5-D7EA-7907-D7B8-5D88B8A47B06">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-03-10 23:10:27 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="3AC7DF6E-6946-22A9-7C18-6D9F655F0254" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="009CC690-068C-99B0-6876-8806DA80608A" name="Tipo_Usuario PK">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-03-06 23:12:34 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="3AC7DF6E-6946-22A9-7C18-6D9F655F0254" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CC5885CE-6544-0960-AD6D-90F5034616B7</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="3BF507FB-521B-5238-5A44-970697B6E6AC" name="Key_2">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-03-10 21:08:46 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="3AC7DF6E-6946-22A9-7C18-6D9F655F0254" value="true"/>
+</engineerTo>
+<newElementsIDs>F74EDBBF-0F98-A413-7A25-EC6435E31847</newElementsIDs>
+<usedAttributes>
+<attributeRef>F74EDBBF-0F98-A413-7A25-EC6435E31847</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

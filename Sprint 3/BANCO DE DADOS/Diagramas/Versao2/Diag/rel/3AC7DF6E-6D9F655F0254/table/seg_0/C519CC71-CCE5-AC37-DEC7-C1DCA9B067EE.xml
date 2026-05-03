@@ -1,0 +1,184 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C519CC71-CCE5-AC37-DEC7-C1DCA9B067EE" name="Challenge_Pergunta_Frequente">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-03-12 01:36:35 UTC</createdTime>
+<generatorID>1867046A-94C8-1F62-FA67-30F1B15694A0</generatorID>
+<ownerDesignName>Diag</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_pergunta" id="FE1E94AB-E333-E552-2953-97F37BAA034A">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-03-12 01:36:35 UTC</createdTime>
+<generatorID>C3666946-31F2-3012-B7D7-FD61F2A7095D</generatorID>
+<ownerDesignName>Diag</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pergunta" id="0AFF359A-A937-584B-52C1-C8D668BEDD68">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-03-12 01:36:35 UTC</createdTime>
+<generatorID>7FCA4188-CDEA-F918-05FA-64EE9F285C94</generatorID>
+<ownerDesignName>Diag</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="resposta" id="BCBC23B7-2B9F-773D-3116-28C98DFFD0DE">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-03-12 01:36:35 UTC</createdTime>
+<generatorID>B60286EE-2470-1DC1-81CC-2E1697E6B424</generatorID>
+<ownerDesignName>Diag</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Challenge_Idioma_id_idioma" id="A1299B3B-2078-4AC3-BB10-7CDCDCDF4CA4">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-03-12 01:36:35 UTC</createdTime>
+<generatorID>DE21A870-8025-FBF6-A744-4E5B79B2D7E8</generatorID>
+<ownerDesignName>Diag</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7695C321-4046-A3EF-C3D1-6968DA660D05" referredColumn="67130990-2D41-B9E5-0240-79C6BF4E7179"/>
+</associations>
+</Column>
+<Column name="Challenge_Estacao_id_estacao" id="C0E5902F-D002-D927-0952-AE4535E6B77E">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-03-12 01:36:35 UTC</createdTime>
+<generatorID>D4A9AFD1-14B5-659E-12D2-77CE4C338676</generatorID>
+<ownerDesignName>Diag</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="53D259EC-D7E0-0C70-03F9-BCB0C787B611" referredColumn="A9150D5D-F595-AC31-7BA4-D1A57A2F031B"/>
+</associations>
+</Column>
+<Column name="Challenge_Categoria_id_categoria" id="2EBCEA1E-4A67-9224-DA01-40A3958788A3">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-03-12 01:36:35 UTC</createdTime>
+<generatorID>993A5F83-1C5B-E1D7-A21F-6FDE02EAB15E</generatorID>
+<ownerDesignName>Diag</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B8399358-BBEB-8CF9-5627-0A539B12DC36" referredColumn="E715A711-90E6-DB55-821C-3E83ADA64D6B"/>
+</associations>
+</Column>
+<Column name="status" id="C90BE914-9949-86ED-3960-EBC3C9996C7E">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-03-12 01:36:35 UTC</createdTime>
+<generatorID>51C66E0B-73F8-3F25-ED61-8C3613FFDA96</generatorID>
+<ownerDesignName>Diag</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Challenge_Usuario_id_usuario" id="6F82D78F-1BC4-5F50-15F5-7DD91AFB5044">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-03-12 01:36:35 UTC</createdTime>
+<generatorID>389476CF-05FE-261F-1DB7-51681301DDD4</generatorID>
+<ownerDesignName>Diag</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BD2DB1B7-7415-0484-2DE2-46753016D79F" referredColumn="3C3C75B3-E613-C40E-695B-7432C330EA0B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="27C1B76E-E6CF-6B67-B7AE-B5E25F1F0917" name="Pergunta_Frequente_PK">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-03-12 01:36:35 UTC</createdTime>
+<generatorID>C5390ED8-12C3-5173-52E8-6834FA966CF1</generatorID>
+<ownerDesignName>Diag</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FE1E94AB-E333-E552-2953-97F37BAA034A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="07F8B6F6-8287-13B3-0316-95CEF46D6C93" name="Challenge_Pergunta_Frequente_Challenge_Usuario_FK">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-03-12 01:36:35 UTC</createdTime>
+<generatorID>F013B166-CE3A-CF30-1DF4-4BDB1C6DF6FA</generatorID>
+<ownerDesignName>Diag</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6F82D78F-1BC4-5F50-15F5-7DD91AFB5044"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D44B4DD8-388E-7734-1876-25DBBB2969AC" name="Challenge_Pergunta_Frequente_Challenge_Idioma_FK">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-03-12 01:36:35 UTC</createdTime>
+<generatorID>33594CC9-6406-78F5-3FD2-FE59AA3A7AF2</generatorID>
+<ownerDesignName>Diag</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A1299B3B-2078-4AC3-BB10-7CDCDCDF4CA4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AE497C59-E2EB-5BAA-E635-00E5A8F6047F" name="Challenge_Pergunta_Frequente_Challenge_Estacao_FK">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-03-12 01:36:35 UTC</createdTime>
+<generatorID>1075588E-FE4D-9E69-C9C0-E901E007CD9D</generatorID>
+<ownerDesignName>Diag</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C0E5902F-D002-D927-0952-AE4535E6B77E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8D55352B-A86F-56BD-4E05-7238541A7CF8" name="Challenge_Pergunta_Frequente_Challenge_Categoria_FK">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-03-12 01:36:35 UTC</createdTime>
+<generatorID>D6CBAE7E-59C8-33D1-F0C3-553461A6C5F4</generatorID>
+<ownerDesignName>Diag</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2EBCEA1E-4A67-9224-DA01-40A3958788A3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

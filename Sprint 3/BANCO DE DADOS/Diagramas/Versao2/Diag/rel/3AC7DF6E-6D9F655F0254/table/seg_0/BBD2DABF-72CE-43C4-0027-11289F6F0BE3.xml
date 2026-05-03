@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BBD2DABF-72CE-43C4-0027-11289F6F0BE3" name="Challenge_Estacao_Linha">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-03-12 01:36:35 UTC</createdTime>
+<generatorID>3991A7FC-E87D-4BA5-2019-8C0D9DEE4403</generatorID>
+<ownerDesignName>Diag</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_estacao_linha" id="0F6108EB-DD2D-58DB-2D1A-E2D28D622245">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-03-12 01:36:35 UTC</createdTime>
+<generatorID>C22292F3-327C-00AF-7A6A-E24CBE9D5430</generatorID>
+<ownerDesignName>Diag</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Challenge_Estacao_id_estacao" id="93437212-A0FE-E411-4BEC-224C2C4B951B">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-03-12 01:36:35 UTC</createdTime>
+<generatorID>9105AF49-4036-D12D-B0E7-555C75F6A0FB</generatorID>
+<ownerDesignName>Diag</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A3C822D8-1615-7F48-27D6-EFB5697DE022" referredColumn="A9150D5D-F595-AC31-7BA4-D1A57A2F031B"/>
+</associations>
+</Column>
+<Column name="Challenge_Usuario_id_usuario" id="BED4FB76-23A0-E064-286A-D2C72B819F70">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-03-12 01:36:35 UTC</createdTime>
+<generatorID>D5D4A779-F6C2-3820-249A-F5A083CF20AD</generatorID>
+<ownerDesignName>Diag</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8A46AB25-DCDD-C8B3-D9F0-D1D402911495" referredColumn="3C3C75B3-E613-C40E-695B-7432C330EA0B"/>
+</associations>
+</Column>
+<Column name="Challenge_Linha_nome_linha" id="D8943EDD-326E-D1D9-549F-D87A1C8729DA">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-03-12 01:36:35 UTC</createdTime>
+<generatorID>C9A317DE-4D36-804D-F604-FC89072E5F9C</generatorID>
+<ownerDesignName>Diag</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2682B5AA-2161-8B18-8D88-13E2D31118F3" referredColumn="A9934335-FCA3-9575-C4D8-A8B4C7D68ABF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E18D0EDF-55C9-CABE-9741-1FEF34705C38" name="Estacao_Linha_PK">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-03-12 01:36:35 UTC</createdTime>
+<generatorID>8A2A72D1-4BAA-A183-03E7-877832D6435B</generatorID>
+<ownerDesignName>Diag</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0F6108EB-DD2D-58DB-2D1A-E2D28D622245"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EB24DCFE-3CEF-B4FA-5B2C-806178DAD575" name="Challenge_Estacao_Linha_Challenge_Usuario_FK">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-03-12 01:36:35 UTC</createdTime>
+<generatorID>290B98AF-E4C8-DF14-354B-71153765FFC4</generatorID>
+<ownerDesignName>Diag</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BED4FB76-23A0-E064-286A-D2C72B819F70"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ED782AC5-7A19-32C4-097B-DFEB1FA76382" name="Challenge_Estacao_Linha_Challenge_Estacao_FK">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-03-12 01:36:35 UTC</createdTime>
+<generatorID>B1E3233A-EBD9-CF6F-2F5E-72423C3B479A</generatorID>
+<ownerDesignName>Diag</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="93437212-A0FE-E411-4BEC-224C2C4B951B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5B0ED5EA-6722-AD7D-177A-465F5286D6E5" name="Challenge_Estacao_Linha_Challenge_Linha_FK">
+<createdBy>Charllot</createdBy>
+<createdTime>2025-03-12 01:36:35 UTC</createdTime>
+<generatorID>BCDC20C5-1D9A-E5F0-1AA5-E7B1678F9409</generatorID>
+<ownerDesignName>Diag</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D8943EDD-326E-D1D9-549F-D87A1C8729DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

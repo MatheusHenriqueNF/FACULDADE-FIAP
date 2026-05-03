@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Predição de Passageiros nas Estações</title>
+</head>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+    }
+    h1, h2 {
+        color: #333;
+    }
+    form {
+        margin-bottom: 20px;
+    }
+    label {
+        display: block;
+        margin-bottom: 5px;
+    }
+    input, select, button {
+        padding: 10px;
+        margin-bottom: 10px;
+        width: 100%;
+        max-width: 300px;
+    }
+    button {
+        background-color: #007BFF;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+    button:hover {
+        background-color: #0056b3;
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+    th, td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: center;
+    }
+    th {
+        background-color: #f2f2f2;
+    }
+    tr:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+    tr:hover {
+        background-color: #ddd;
+    }
+
+</style>
+<body>
+    <h1>Prever Passageiros nas Estações</h1>
+    <form method="POST">
+        <label for="linha">Linha do metrô:</label>
+        <select name="linha">
+            {% for l in linhas %}
+                <option value="{{ l }}">{{ l }}</option>
+            {% endfor %}
+        </select><br>
+        <label for="mes">Mês:</label>
+        <select name="mes">
+            {% for m in meses %}
+                <option value="{{ m }}">{{ m }}</option>
+            {% endfor %}
+        </select><br>
+
+
+        <label for="dia">Dia:</label>
+        <input type="number" name="dia" required><br>
+
+        <button type="submit">Prever</button>
+    </form>
+
+    {% if predicao %}
+        <h2>Resultado da Predição:</h2>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Estação</th>
+                    <th>Valor Previsto de Pessoas que Circularão na Estação até o Final do Dia</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for estacao, valor in predicao.items() %}
+                    <tr>
+                        <td>{{ estacao }}</td>
+                        <td>{{ valor }} mil</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>  
+    {% endif %}
+</body>
+</html>
